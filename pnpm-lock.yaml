@@ -7,6 +7,7 @@ specifiers:
   eslint: 8.27.0
   eslint-config-next: 13.0.3
   next: 13.0.3
+  picnic: ^7.1.0
   react: 18.2.0
   react-dom: 18.2.0
   typescript: 4.9.3
@@ -18,6 +19,7 @@ dependencies:
   eslint: 8.27.0
   eslint-config-next: 13.0.3_e3uo4sehh4zr4i6m57mkkxxv7y
   next: 13.0.3_biqbaboplfbrettd7655fr4n2y
+  picnic: 7.1.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   typescript: 4.9.3
@@ -1528,6 +1530,11 @@ packages:
   /path-type/4.0.0:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
     engines: {node: '>=8'}
+    dev: false
+
+  /picnic/7.1.0:
+    resolution: {integrity: sha512-OFoJClCDSaCnavs7QZPMIIjrodUO8m6V+GBNOWaIN4kk3IjzSAd2kp/RfkpZRwXK2u71q5mJ3UQaQjHJRr3dnw==}
+    engines: {node: '>=4.0.0'}
     dev: false
 
   /picocolors/1.0.0:
