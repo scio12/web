@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 
-import styles from "./Layout.module.css"
+import styles from "./Layout.module.css";
 
 export default function MainLayout({
   children,
@@ -13,7 +13,7 @@ export default function MainLayout({
   const [transparan, setTransparan] = useState<boolean>(true);
 
   useEffect(() => {
-    const heading = document.querySelector("#header");
+    const heading = document.querySelector("#header") as Element;
 
     const observer = new IntersectionObserver(
       (entries) =>
@@ -56,9 +56,7 @@ export default function MainLayout({
         </label>
 
         <div className="menu">
-          <a className="pseudo button">
-            Demo
-          </a>
+          <a className="pseudo button">Demo</a>
         </div>
       </nav>
 
