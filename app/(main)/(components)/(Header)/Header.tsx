@@ -1,10 +1,5 @@
-import { Play } from "@next/font/google";
 import styles from "./Header.module.css";
-
-const play = Play({
-  weight: ["400", "700"],
-  subsets: ["latin"],
-});
+import { play } from "../../../../lib/fonts";
 
 export default function Header() {
   return (

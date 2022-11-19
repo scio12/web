@@ -1,10 +1,17 @@
 import Header from "./(components)/(Header)/Header";
 
+import SiapaKami from "./(components)/(SiapaKami)/SiapaKami";
+import Divisi from "./(components)/(Divisi)/Divisi";
+import Bergabung from "./(components)/(Bergabung)/Bergabung";
+
 export default function MainPage() {
   return (
     <main>
       <Header />
-      <section style={{ height: "100vh" }}></section>
+
+      <SiapaKami />
+      <Divisi />
+      <Bergabung />
     </main>
   );
 }
