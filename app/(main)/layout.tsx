@@ -79,7 +79,9 @@ export default function MainLayout({
               key={item.section}
               className="pseudo button"
               onClick={() => {
-                const element = document.querySelector(`#${item.section}`) as Element;
+                const element = document.querySelector(
+                  `#${item.section}`
+                ) as Element;
                 element.scrollIntoView({ behavior: "smooth" });
 
                 if (checked) setChecked(false);

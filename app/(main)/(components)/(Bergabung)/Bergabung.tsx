@@ -1,3 +1,11 @@
+import styles from "./Bergabung.module.css";
+
+import { lato } from "../../../../lib/fonts";
+
 export default function Bergabung() {
-  return <section style={{ height: "100vh" }} id="bergabung"></section>;
+  return (
+    <section id="bergabung" className={styles.bergabung}>
+      <h1 className={lato.className}>Bergabung</h1>
+    </section>
+  );
 }
