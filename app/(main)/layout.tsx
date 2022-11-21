@@ -29,7 +29,10 @@ export default function MainLayout({
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             if (entry.intersectionRatio <= 0.85) setTransparan(false);
-            else setTransparan(true);
+            else {
+              setTransparan(true);
+              setChecked(false);
+            }
           } else {
             if (transparan) setTransparan(false);
           }
