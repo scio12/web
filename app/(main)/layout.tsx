@@ -97,6 +97,39 @@ export default function MainLayout({
       </nav>
 
       {children}
+
+      <footer className={styles.footer}>
+        <div className={styles.footerContainer}>
+          <div className={styles.actualChildrenContainer}>
+            <Image
+              width={32}
+              height={32}
+              src={scioImage}
+              alt="Gambar logo scio 12"
+            />
+            <span className={styles.scioSpan}>SCIO 12</span>
+          </div>
+
+          <div className={styles.actualChildrenContainer}>
+            <a
+              href="https://instagram.com/scio12_"
+              className="pseudo button"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Instagram
+            </a>
+            <a
+              href="https://github.com/scio12"
+              className="pseudo button"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+          </div>
+        </div>
+      </footer>
     </>
   );
 }

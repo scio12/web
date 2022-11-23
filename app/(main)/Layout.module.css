@@ -1,3 +1,25 @@
 .transparan {
   display: none;
 }
+
+.footer {
+  height: 3.5em;
+  border-top: 1.9px solid #111;
+}
+
+.footerContainer {
+  width: 100%;
+  height: 100%;
+  padding: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actualChildrenContainer {
+  display: flex;
+  align-items: center;
+}
+
+.scioSpan {
+  margin-left: 0.2em;
+}
