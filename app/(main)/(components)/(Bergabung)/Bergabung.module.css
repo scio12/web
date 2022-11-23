@@ -32,3 +32,9 @@
     font-size: 1em;
   }
 }
+
+@media (max-width: 489px) {
+  .bergabung {
+    height: 120vh;
+  }
+}
