@@ -7,10 +7,18 @@ import styles from "./Layout.module.css";
 import { lato, poppins } from "../../lib/fonts";
 import scioImage from "../../public/kir-transparent.png";
 
+import { GrInstagram } from "react-icons/gr";
+import { BsGithub } from "react-icons/bs";
+
 const navItems = [
   { display: "Siapa Kami ?", section: "siapa-kami" },
   { display: "Divisi", section: "divisi" },
   { display: "Bergabung", section: "bergabung" },
+];
+
+const socialMedia = [
+  { link: "https://instagram.com/scio12_", logo: GrInstagram },
+  { link: "https://github.com/scio12", logo: BsGithub },
 ];
 
 export default function MainLayout({
@@ -111,22 +119,17 @@ export default function MainLayout({
           </div>
 
           <div className={styles.actualChildrenContainer}>
-            <a
-              href="https://instagram.com/scio12_"
-              className="pseudo button"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Instagram
-            </a>
-            <a
-              href="https://github.com/scio12"
-              className="pseudo button"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Github
-            </a>
+            {socialMedia.map((social) => (
+              <a
+                key={social.link}
+                href={social.link}
+                className={styles.socialLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <social.logo />
+              </a>
+            ))}
           </div>
         </div>
       </footer>
