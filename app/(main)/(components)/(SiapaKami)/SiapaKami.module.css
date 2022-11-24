@@ -16,6 +16,13 @@
   padding-right: 16px;
 }
 
+.imageContainer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
 @media (max-width: 1122px) {
   .siapaKami {
     padding: 75px 20px;
