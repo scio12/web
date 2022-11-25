@@ -30,6 +30,7 @@ export default function SiapaKami() {
         </div>
         <div className={styles.imageContainer}>
           <Image
+            className={styles.penjelasanImage}
             src={penjelasanLogoImg}
             alt="Gambar yang berisi penjelasan makna dari warna logo ekstrakurikuler KIR."
             width={920}
