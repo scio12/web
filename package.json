@@ -21,7 +21,7 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.6.0",
     "sharp": "^0.31.2",
-    "starback": "^2.1.2",
+    "starback": "./packages/starback",
     "typescript": "4.9.3"
   }
 }
