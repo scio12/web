@@ -1,0 +1,43 @@
+---
+import { Image } from "@astrojs/image/components";
+import { Icon } from "astro-icon";
+
+import scioImage from "@assets/kir-transparent.png";
+import styles from "./HomeFooter.module.css";
+---
+
+<style lang="css">
+  [astro-icon] {
+    width: 1.6em;
+    height: 1.6em;
+  }
+</style>
+
+<footer class={styles.footer}>
+  <div class={styles.footerContainer}>
+    <div class={styles.actualChildrenContainer}>
+      <Image width={32} height={32} src={scioImage} alt="Gambar logo scio 12" />
+      <span class={styles.scioSpan}>SCIO 12</span>
+    </div>
+
+    <div class={styles.actualChildrenContainer}>
+      <a
+        href="https://instagram.com/scio12_"
+        class={styles.socialLink}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Icon name="instagram" />
+      </a>
+
+      <a
+        href="https://github.com/scio12"
+        class={styles.socialLink}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Icon name="github" />
+      </a>
+    </div>
+  </div>
+</footer>

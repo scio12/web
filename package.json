@@ -1,27 +1,32 @@
 {
   "name": "scio12-web",
-  "version": "0.1.0",
+  "type": "module",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && tsc --noEmit && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "@next/font": "^13.0.4",
-    "@types/node": "18.11.9",
-    "@types/react": "18.0.25",
-    "@types/react-dom": "18.0.9",
-    "eslint": "8.28.0",
-    "eslint-config-next": "13.0.4",
-    "next": "13.0.4",
+    "@astrojs/image": "^0.14.0",
+    "@astrojs/react": "^2.0.2",
+    "@astrojs/sitemap": "^1.0.1",
+    "@fontsource/lato": "^4.5.10",
+    "@fontsource/play": "^4.5.12",
+    "@fontsource/poppins": "^4.5.10",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "astro": "^2.0.6",
+    "astro-icon": "^0.8.0",
+    "astro-robots-txt": "^0.3.11",
     "picnic": "^7.1.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-icons": "^4.6.0",
-    "sharp": "^0.31.2",
-    "starback": "./packages/starback",
-    "typescript": "4.9.3"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "starback": "^2.1.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
   }
 }
