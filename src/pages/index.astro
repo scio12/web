@@ -3,6 +3,8 @@ import "@fontsource/play";
 import "@fontsource/lato";
 import "@fontsource/poppins";
 
+import { Icon } from "astro-icon";
+
 import { Image } from "@astrojs/image/components";
 import { Navbar } from "@components/Navbar";
 
@@ -123,7 +125,7 @@ const allCard = [
                 class="mt-6 lg:mt-0 lg:transform lg:-translate-y-20"
               />
               <div class="p-6 lg:transform lg:-translate-y-20">
-                  <h2 class="font-bold font-poppins text-xl sm:text-xl md:text-2xl lg:text-3xl mb-5">{card.heading}</h2>
+                  <h2 class="font-bold font-poppins text-center text-xl sm:text-xl md:text-2xl lg:text-3xl mb-5">{card.heading}</h2>
 
                   <p class="font-light font-lato text-lg lg:text-xl leading-loose">{card.explanation}</p>
               </div>
@@ -153,4 +155,42 @@ const allCard = [
         </div>
     </section>
   </main>
+
+  <footer class="flex flex-wrap items-center justify-between px-4 border-t border-solid h-14 w-full">
+      <p class="ml-2 h-[inherit] flex items-center font-play font-semibold text-xl">
+        <span>SCI</span>
+        <Image
+          class="ml-[2px]"
+          width={32}
+          height={32}
+          src={scioImage}
+          alt="Gambar logo scio 12"
+        />
+        <span class="ml-1">12</span>
+      </p>
+      <div class="flex gap-1">
+        <a
+          href="https://instagram.com/scio12_"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Icon name="instagram" />
+        </a>
+
+        <a
+          href="https://github.com/scio12"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Icon name="github" />
+        </a>
+    </div>
+  </footer>
+
+  <style lang="css">
+    [astro-icon] {
+      width: 1.6em;
+      height: 1.6em;
+    }
+  </style>
 </Layout>
