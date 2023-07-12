@@ -4,11 +4,12 @@ import "@fontsource/lato";
 import "@fontsource/poppins";
 
 import { Image } from "@astrojs/image/components";
+import { Navbar } from "@components/Navbar";
 
 import Layout from "@layouts/Layout.astro";
 
 import PenjelasanLogo from "@assets/penjelasan-logo.png";
-// import scioImage from "@assets/kir-transparent.png";
+import scioImage from "@assets/kir-transparent.png";
 
 import logoOlim from "@assets/logo-olim.png";
 import logoTeknik from "@assets/logo-teknik.png";
@@ -30,86 +31,70 @@ const allCard = [
 ];
 ---
 
-<Layout title="Selamat Datang | SCIO 12">
-  <main class="dark:bg-gray-950">
-    <section class="flex h-screen justify-left items-center sm:p-16 p-10 bg-neutral-900">
+<Layout title="Kelompok Ilmiah Remaja SMA Negeri 12 Bekasi">
+  <Navbar client:idle>
+    <Image
+      class="ml-[2px]"
+      width={32}
+      height={32}
+      src={scioImage}
+      alt="Gambar logo scio 12"
+    />
+  </Navbar>
+
+  <main class="dark:bg-neutral-950">
+    <section
+      class="flex h-screen justify-left items-center sm:p-16 p-10 bg-neutral-900"
+    >
       <div class="flex gap-5 flex-col">
-        <h1 class="text-gray-50 font-bold text-3xl md:text-4xl lg:text-5xl font-lato">Bersatu kita berkreasi,</h1>
-        <h3 class="text-gray-50 font-bold text-3xl md:text-4xl lg:text-5xl font-poppins">Berprestasi kita <u>berambisi.</u></h3>
+        <h1
+          class="text-gray-50 font-bold text-3xl md:text-4xl lg:text-5xl font-lato"
+        >
+          Bersatu kita berkreasi,
+        </h1>
+        <h3
+          class="text-gray-50 font-bold text-3xl md:text-4xl lg:text-5xl font-poppins"
+        >
+          Berprestasi kita <u>berambisi.</u>
+        </h3>
       </div>
     </section>
 
-    <section class="m-auto sm:p-16 p-10">
-      <h1 class="font-bold dark:text-gray-50 font-poppins text-4xl mb-8">Siapa Kami?</h1>
-      <div class="flex flex-column md:gap-20 dark:text-gray-50 lg:flex-row lg:text-2xl mb-8 font-light font-lato">
-          <p>
-            KIR adalah singkatan dari Kelompok Ilmiah Remaja, ekstrakurikuler
-            ini bertujuan untuk mengembangkan bakat dan minat siswa khususnya
-            dalam bidang ilmiah dan mengikuti kompetisi atau perlombaan. Latar
-            belakang terbentuknya ekstrakurikuler ini karena belum ada
-            organisasi yang fokus dibidang akademik atau keilmiahan.
-          </p>
-          <p>
-            Tanggal dibentuk ekstrakurikuler KIR ini pada tanggal 16 Juli 2016,
-            diresmikan pada 21 Juli 2016. SCIO 12 diambil dari bahasa latin{" "}
-            <i>SCIO</i> yang memiliki arti <i>Aku Tahu</i>. Empat lingkaran
-            sebagai pengganti huruf "O" dengan masing-masing warna kuning, biru,
-            merah, dan hijau melambangkan setiap bidang studi.
-          </p>
+    <section
+      id="siapa-kami"
+      class="m-auto min-h-[160vh] px-6 pt-24 sm:px-14 sm:pt-28 md:px-16"
+    >
+      <h1
+        class="font-bold dark:text-gray-50 font-poppins text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-8"
+      >
+        Siapa Kami?
+      </h1>
+      <div
+        class="font-light font-lato flex flex-wrap gap-10 text-xl md:flex-nowrap md:gap-18 lg:gap-12 lg:text-2xl"
+      >
+        <p>
+          KIR adalah singkatan dari Kelompok Ilmiah Remaja, ekstrakurikuler ini
+          bertujuan untuk mengembangkan bakat dan minat siswa khususnya dalam
+          bidang ilmiah dan mengikuti kompetisi atau perlombaan. Latar belakang
+          terbentuknya ekstrakurikuler ini karena belum ada organisasi yang
+          fokus dibidang akademik atau keilmiahan.
+        </p>
+        <p>
+          Tanggal dibentuk ekstrakurikuler KIR ini pada tanggal 16 Juli 2016,
+          diresmikan pada 21 Juli 2016. SCIO 12 diambil dari bahasa latin{" "}
+          <i>SCIO</i> yang memiliki arti <i>Aku Tahu</i>. Empat lingkaran
+          sebagai pengganti huruf "O" dengan masing-masing warna kuning, biru,
+          merah, dan hijau melambangkan setiap bidang studi.
+        </p>
       </div>
-      <div>
+      <div class="w-full flex justify-center mt-4">
         <Image
           src={PenjelasanLogo}
-          class="w-full h-auto"
+          class="penjelasan-image"
           alt="Gambar yang berisi penjelasan makna dari warna logo ekstrakurikuler KIR."
           aspectRatio="16:9"
           width={920}
         />
-      </div>
-    </section>
-
-    <section class="m-auto sm:p-16 p-10">
-      <h1 class="font-bold dark:text-gray-50 font-poppins text-4xl mb-8">Divisi</h1>
-      <div class="flex gap-5">
-        {
-          allCard.map((card) => (
-            <div>
-              <div class="flex justify-center">
-                <Image
-                src={card.image}
-                alt={`Logo dari divisi ${card.heading}`}
-                width={215}
-                height={215}
-                />
-                </div>
-              <div>
-                  <h2 class="text-center">{card.heading}</h2>
-
-                  <p class="p-5">
-                    Lorem ipsum dolor sit amet, qui minim labore adipisicing
-                    minim sint cillum sint consectetur cupidatat. Lorem ipsum
-                    dolor sit amet, qui minim labore adipisicing minim sint
-                    cillum sint consectetur cupidatat. Lorem ipsum dolor sit
-                    amet, qui minim labore adipisicing minim sint cillum sint
-                    consectetur cupidatat.
-                  </p>
-              </div>
-            </div>
-          ))
-        }
-      </div>
-    </section>
-
-    <section class="m-auto sm:p-16 p-10">
-      <h1 class="font-bold dark:text-gray-50 font-poppins text-4xl mb-8">Bergabung</h1>
-      <div class="flex text-xl lg:text-2xl font-light font-lato flex-col gap-10 h-screen">
-          <p>
-            Tertarik untuk bergabung? Klik link pendaftaran <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="text-sky-700 hover:text-sky-400">disini!</a>
-          </p>
-
-          <p>
-            Masih ada pertanyaan? Hubungi narahubung atau sosial media di bawah ini ya ^_^
-          </p>
       </div>
     </section>
   </main>
