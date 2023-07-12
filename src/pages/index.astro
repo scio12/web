@@ -3,12 +3,12 @@ import "@fontsource/play";
 import "@fontsource/lato";
 import "@fontsource/poppins";
 
+import { Icon } from "astro-icon";
+
 import { Image } from "@astrojs/image/components";
+import { Navbar } from "@components/Navbar";
 
 import Layout from "@layouts/Layout.astro";
-
-import { Navbar } from "@components/HomeNavbar";
-import Footer from "@components/HomeFooter/index.astro";
 
 import PenjelasanLogo from "@assets/penjelasan-logo.png";
 import scioImage from "@assets/kir-transparent.png";
@@ -21,22 +21,25 @@ const allCard = [
   {
     heading: "Olimpiade",
     image: logoOlim,
+    explanation: "Siapkan dirimu untuk tantangan mengikuti kompetisi dengan bergabung dalam Divisi Olimpiade kami! Dapatkan pengalaman berharga dalam mengikuti lomba bergengsi dan raih prestasi yang akan menjadi kebanggaanmu. Buatlah portfolio unggulan yang akan membuka pintu kesuksesanmu di dunia akademik!"
   },
   {
     heading: "Teknik",
     image: logoTeknik,
+    explanation: "Apakah kamu memiliki semangat eksperimen dan ingin menguji batasan kemampuanmu? Divisi Teknik adalah wadah bagi pemimpi dan penemu masa depan. Bergabunglah dengan kami dan temukan kesenangan menciptakan inovasi dan merasakan sensasi menemukan solusi bagi masalah-masalah nyata!"
   },
   {
     heading: "Karya Tulis Ilmiah",
     image: logoKti,
+    explanation: "Ingin mengeksplorasi bidang ilmiah dan mengasah kemampuan menulismu? Divisi KTI adalah tempat yang tepat! Bergabunglah dengan kami untuk menggali pengetahuan, menyelami riset, dan menghasilkan karya ilmiah yang akan memukau dunia. Dengan KTI, tak ada batasan bagi imajinasimu!"
   },
 ];
 ---
 
-<Layout title="Selamat Datang | SCIO 12">
+<Layout title="Kelompok Ilmiah Remaja SMA Negeri 12 Bekasi">
   <Navbar client:idle>
     <Image
-      class="logo"
+      class="ml-[2px]"
       width={32}
       height={32}
       src={scioImage}
@@ -44,353 +47,182 @@ const allCard = [
     />
   </Navbar>
 
-  <main>
-    <section id="header">
-      <canvas></canvas>
-      <div>
-        <h1>SCIO 12</h1>
-        <h3>SMA Negeri 12 Kota Bekasi</h3>
+  <main class="dark:bg-neutral-950">
+    <section
+      id="hero"
+      class="flex h-screen justify-left items-center sm:p-16 p-10 bg-neutral-900 bg-cover bg-[url('/spacex-bg.webp')]"
+    >
+      <div class="flex gap-5 flex-col">
+        <h1
+          class="text-gray-50 font-bold text-3xl md:text-4xl lg:text-5xl font-lato"
+        >
+          Bersatu kita berkreasi,
+        </h1>
+        <h2
+          class="text-gray-50 font-bold text-3xl md:text-4xl lg:text-5xl font-poppins"
+        >
+          Berprestasi kita <u>berambisi.</u>
+        </h2>
       </div>
     </section>
 
-    <section id="siapa-kami">
-      <h1>Siapa Kami?</h1>
-      <div class="flex one two-1200">
-        <div>
-          <p>
-            KIR adalah singkatan dari Kelompok Ilmiah Remaja, ekstrakurikuler
-            ini bertujuan untuk mengembangkan bakat dan minat siswa khususnya
-            dalam bidang ilmiah dan mengikuti kompetisi atau perlombaan. Latar
-            belakang terbentuknya ekstrakurikuler ini karena belum ada
-            organisasi yang fokus dibidang akademik atau keilmiahan.
-          </p>
-        </div>
-        <div>
-          <p>
-            Tanggal dibentuk ekstrakurikuler KIR ini pada tanggal 16 Juli 2016,
-            diresmikan pada 21 Juli 2016. SCIO 12 diambil dari bahasa latin{" "}
-            <i>SCIO</i> yang memiliki arti <i>Aku Tahu</i>. Empat lingkaran
-            sebagai pengganti huruf "O" dengan masing-masing warna kuning, biru,
-            merah, dan hijau melambangkan setiap bidang studi.
-          </p>
-        </div>
-        <div class="image-container">
-          <Image
-            src={PenjelasanLogo}
-            class="penjelasan-image"
-            alt="Gambar yang berisi penjelasan makna dari warna logo ekstrakurikuler KIR."
-            aspectRatio="16:9"
-            width={920}
-          />
-        </div>
+    <section
+      id="siapa-kami"
+      class="m-auto min-h-[160vh] px-6 pt-24 sm:px-14 sm:pt-28 md:px-16"
+    >
+      <h1
+        class="font-bold dark:text-gray-50 font-poppins text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-8"
+      >
+        Siapa Kami?
+      </h1>
+      <div
+        class="font-light font-lato flex flex-wrap gap-10 text-xl md:flex-nowrap md:gap-18 lg:gap-12 lg:text-2xl leading-loose"
+      >
+        <p>
+          KIR adalah singkatan dari Kelompok Ilmiah Remaja, ekstrakurikuler ini
+          bertujuan untuk mengembangkan bakat dan minat siswa khususnya dalam
+          bidang ilmiah dan mengikuti kompetisi atau perlombaan. Latar belakang
+          terbentuknya ekstrakurikuler ini karena belum ada organisasi yang
+          fokus dibidang akademik atau keilmiahan.
+        </p>
+        <p>
+          Tanggal dibentuk ekstrakurikuler KIR ini pada tanggal 16 Juli 2016,
+          diresmikan pada 21 Juli 2016. SCIO 12 diambil dari bahasa latin{" "}
+          <i>SCIO</i> yang memiliki arti <i>Aku Tahu</i>. Empat lingkaran
+          sebagai pengganti huruf "O" dengan masing-masing warna kuning, biru,
+          merah, dan hijau melambangkan setiap bidang studi.
+        </p>
+      </div>
+      <div class="w-full flex justify-center mt-6">
+        <Image
+          src={PenjelasanLogo}
+          class="penjelasan-image"
+          alt="Gambar yang berisi penjelasan makna dari warna logo ekstrakurikuler KIR."
+          aspectRatio="16:9"
+          width={920}
+        />
       </div>
     </section>
 
-    <section id="divisi">
-      <h1>Divisi</h1>
-      <div class="flex one three-1200">
+    <section
+      id="divisi"
+      class="m-auto min-h-[160vh] px-6 pt-20 sm:px-14 sm:pt-20 md:px-16"
+    >
+      <h1
+        class="font-bold text-center dark:text-gray-50 font-poppins text-4xl sm:text-4xl md:text-5xl lg:text-6xl mb-8"
+      >
+        Divisi
+      </h1>
+      <div class="grid grid-cols-1 gap-10 md:gap-5 md:grid-cols-2 lg:grid-cols-3 items-center lg:mt-28">
         {
           allCard.map((card) => (
-            <div class="upper-div">
+            <div class="border rounded flex flex-wrap justify-center min-h-full">
               <Image
                 src={card.image}
                 alt={`Logo dari divisi ${card.heading}`}
-                width={215}
-                height={215}
-                class="hero-img"
+                width={210}
+                height={210}
+                class="mt-6 lg:mt-0 lg:transform lg:-translate-y-20"
               />
-              <article class="card">
-                <footer>
-                  <h2>{card.heading}</h2>
+              <div class="p-6 lg:transform lg:-translate-y-20">
+                  <h2 class="font-bold font-poppins text-center text-xl sm:text-xl md:text-2xl lg:text-3xl mb-5">{card.heading}</h2>
 
-                  <p>
-                    Lorem ipsum dolor sit amet, qui minim labore adipisicing
-                    minim sint cillum sint consectetur cupidatat. Lorem ipsum
-                    dolor sit amet, qui minim labore adipisicing minim sint
-                    cillum sint consectetur cupidatat. Lorem ipsum dolor sit
-                    amet, qui minim labore adipisicing minim sint cillum sint
-                    consectetur cupidatat.
-                  </p>
-                </footer>
-              </article>
+                  <p class="font-light font-lato text-lg lg:text-xl leading-loose">{card.explanation}</p>
+              </div>
             </div>
           ))
         }
       </div>
     </section>
 
-    <section id="bergabung">
-      <h1>Bergabung</h1>
-      <div class="flex one">
-        <div>
-          <p>
-            Lorem ipsum dolor sit amet, officia excepteur ex fugiat
-            reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit
-            ex esse exercitation amet. Nisi anim cupidatat excepteur officia.
-            Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate
-            voluptate dolor minim nulla est proident. Nostrud officia pariatur
-            ut officia. Sit irure elit esse ea nulla sunt ex occaecat
-            reprehenderit commodo officia dolor Lorem duis laboris cupidatat
-            officia voluptate. Culpa proident adipisicing id nulla nisi laboris
-            ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo
-            ex non excepteur duis sunt velit enim. Voluptate laboris sint
-            cupidatat ullamco ut ea consectetur et est culpa et culpa duis.
-          </p>
+    <section id="kontak"
+      class="m-auto min-h-[120vh] px-6 pt-24 sm:px-14 sm:pt-28 md:px-16"
+     >
+      <h1
+        class="font-bold dark:text-gray-50 font-poppins text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-8"
+      >
+        Kontak
+      </h1>
+      <p class="font-lato font-light text-2xl">Ingin bergabung, atau masih ada pertanyaan? Cek beberapa <i>resource</i> dibawah ini yaa!</p>
+        <div class="grid grid-cols-1 justify-between sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+          <div class="border rounded flex flex-col justify-center items-center p-5 text-gray-50 bg-[#673ab7]">
+            <div class="flex justify-center flex-col sm:flex-col md:flex-row items-center">
+              <Icon name="form" class="!w-20 !h-20" />
+              <h1 class="font-poppins text-2xl font-semibold">Form Pendaftaran</h1>
+            </div>
+
+            <hr class="my-2 w-full" />
+
+            <h2 class="text-xl font-lato">Scan QR di bawah</h2>
+            <h3 class="text-xl font-lato mt-2">atau</h3>
+            <a class="bg-gray-50 mt-2 text-xl w-full text-center text-[#673ab7] rounded font-lato" href="/" target="_blank" rel="noopener noreferrer">Daftar Disini</a>
+          </div>
+
+            <a 
+              href="https://instagram.com/scio12_"
+              target="_blank"
+              class="border rounded flex flex-col items-center justify-center p-5 font-semibold text-gray-50 hover:text-[#ffd366] gap-6 bg-[#E1306C] font-poppins text-2xl"
+              rel="noopener noreferrer"
+            >
+              <Icon name="instagram-outline" class="!w-20 !h-20" />
+
+              @scio12_
+            </a>
+
+          <div class="border rounded flex flex-wrap flex-col items-center justify-center p-5 text-gray-50 bg-[#25D366]">
+            <div class="flex justify-center flex-col sm:flex-col md:flex-row items-center">
+              <Icon name="whatsapp" class="!w-20 !h-20" />
+
+              <h1 class="font-poppins text-2xl font-semibold text-center mt-2 sm:mt-2">Contact Person (WA)</h1>
+            </div>
+
+            <hr class="my-2 w-full" />
+
+            <h2 class="text-xl font-lato font-bold">Budi</h2>
+            <h2 class="text-xl font-lato">+62 812-3456-7890</h2>
+            <a class="bg-gray-50 mt-4 text-xl w-full text-center text-[#25D366] rounded font-lato" href="/" target="_blank" rel="noopener noreferrer">Chat</a>
+          </div>
         </div>
-      </div>
     </section>
   </main>
 
-  <Footer />
+  <footer class="flex flex-wrap items-center justify-between px-4 border-t border-solid h-14 w-full mt-10">
+      <p class="ml-2 h-[inherit] flex items-center font-play font-semibold text-xl">
+        <span>SCI</span>
+        <Image
+          class="ml-[2px]"
+          width={32}
+          height={32}
+          src={scioImage}
+          alt="Gambar logo scio 12"
+        />
+        <span class="ml-1">12</span>
+      </p>
+      <div class="flex gap-1">
+        <a
+          href="https://instagram.com/scio12_"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Halaman instagram KIR SMAN 12 Bekasi"
+          >
+          <Icon name="instagram" />
+        </a>
+
+        <a
+          href="https://github.com/scio12"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Halaman Github KIR SMAN 12 Bekasi"
+        >
+          <Icon name="github" />
+        </a>
+      </div>
+  </footer>
+
+  <style lang="css">
+    [astro-icon] {
+      width: 1.6em;
+      height: 1.6em;
+    }
+  </style>
 </Layout>
-
-<style is:global>
-  body {
-    font-family: "Poppins", sans-serif;
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Lato", sans-serif;
-  }
-
-  /* header style */
-  #header {
-    color: #eaeaea;
-    background-color: #0e1118;
-    width: 100%;
-    height: 100vh;
-  }
-
-  #header canvas {
-    position: absolute;
-  }
-
-  #header canvas,
-  #header div {
-    width: 100%;
-    height: 100%;
-  }
-
-  #header div {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #header h1,
-  #header h2 {
-    font-family: "Play", sans-serif;
-    padding: 0.01em 0;
-  }
-
-  #header h1 {
-    font-weight: 700;
-    font-size: 4.3em;
-  }
-
-  #header h2 {
-    font-weight: 400;
-    font-size: 1.8em;
-  }
-
-  @media (max-width: 500px) {
-    #header h1 {
-      font-size: 3.9em;
-    }
-
-    #header h2 {
-      font-size: 1.4em;
-    }
-  }
-
-  @media (max-width: 360px) {
-    #header h1 {
-      font-size: 3.5em;
-    }
-
-    #header h2 {
-      font-size: 1em;
-    }
-  }
-
-  /* siapa kami */
-  #siapa-kami {
-    width: 100%;
-    margin: 0 auto;
-    padding: 75px 0;
-    text-align: left;
-    max-width: 1100px;
-  }
-
-  #siapa-kami h1 {
-    font-weight: bold;
-    font-size: 2.8em;
-  }
-
-  #siapa-kami p {
-    font-size: 1.3em;
-    padding-right: 16px;
-  }
-
-  #siapa-kami .image-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
-  #siapa-kami .penjelasan-image {
-    width: 100%;
-    height: auto;
-  }
-
-  @media (max-width: 1122px) {
-    #siapa-kami {
-      padding: 75px 20px;
-    }
-  }
-
-  @media (max-width: 1000px) {
-    #siapa-kami p {
-      font-size: 1.2em;
-    }
-  }
-
-  @media (max-width: 800px) {
-    #siapa-kami h1 {
-      font-size: 2.2em;
-    }
-
-    #siapa-kami p {
-      font-size: 1em;
-    }
-  }
-
-  /* divisi */
-  #divisi {
-    width: 100%;
-    min-height: 120vh;
-    margin: 0 auto;
-    padding: 75px 0;
-    text-align: center;
-    max-width: 1100px;
-  }
-
-  #divisi h1 {
-    font-weight: bold;
-    font-size: 2.8em;
-  }
-
-  #divisi h2 {
-    font-weight: 600;
-    text-align: center;
-  }
-
-  #divisi p {
-    font-size: 1.3em;
-    padding-right: 16px;
-  }
-
-  #divisi .hero-img {
-    margin-top: 1em;
-    z-index: 12;
-    position: relative;
-    border-size: 50%;
-  }
-
-  #divisi .card {
-    transform: translateY(-5.9em);
-  }
-
-  #divisi footer {
-    margin-top: 5rem;
-  }
-
-  #divisi .upper-div {
-    padding-bottom: 0;
-    padding-top: 0;
-  }
-
-  @media (max-width: 1122px) {
-    #divisi {
-      padding: 75px 20px;
-    }
-  }
-
-  @media (max-width: 1199px) {
-    #divisi .hero-img {
-      margin-top: 0.5em;
-    }
-  }
-
-  @media (max-width: 800px) {
-    #divisi h1 {
-      font-size: 2.2em;
-    }
-
-    #divisi p {
-      font-size: 1em;
-    }
-  }
-
-  /* bergabung */
-  #bergabung {
-    width: 100%;
-    height: 100vh;
-    margin: 0 auto;
-    padding: 75px 0;
-    text-align: left;
-    max-width: 1100px;
-  }
-
-  #bergabung h1 {
-    font-weight: bold;
-    font-size: 2.8em;
-  }
-
-  #bergabung p {
-    font-size: 1.3em;
-    padding-right: 16px;
-  }
-
-  @media (max-width: 1122px) {
-    #bergabung {
-      padding: 75px 20px;
-    }
-  }
-
-  @media (max-width: 800px) {
-    #bergabung h1 {
-      font-size: 2.2em;
-    }
-
-    #bergabung p {
-      font-size: 1em;
-    }
-  }
-
-  @media (max-width: 489px) {
-    #bergabung {
-      height: 120vh;
-    }
-  }
-</style>
-
-<script type="module" hoist>
-  import Starback from "starback";
-
-  const canvas = document.querySelector("#header canvas");
-  new Starback(canvas, {
-    type: "dot",
-    quantity: 115,
-    direction: 1,
-    backgroundColor: ["#0e1118"],
-    randomOpacity: true,
-  });
-</script>
