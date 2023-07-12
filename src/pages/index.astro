@@ -50,7 +50,7 @@ const allCard = [
   <main class="dark:bg-neutral-950">
     <section
       id="hero"
-      class="flex h-screen justify-left items-center sm:p-16 p-10 bg-neutral-900"
+      class="flex h-screen justify-left items-center sm:p-16 p-10 bg-neutral-900 bg-cover bg-[url('/spacex-bg.jpg')]"
     >
       <div class="flex gap-5 flex-col">
         <h1
@@ -147,7 +147,7 @@ const allCard = [
         <div class="grid grid-cols-1 justify-between sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
           <div class="border rounded flex flex-col justify-center items-center p-5 text-gray-50 bg-[#673ab7]">
             <div class="flex justify-center flex-col sm:flex-col md:flex-row items-center">
-              <Icon name="form" class="w-20 h-20" />
+              <Icon name="form" class="!w-20 !h-20" />
               <h1 class="font-poppins text-2xl font-semibold">Form Pendaftaran</h1>
             </div>
 
@@ -164,13 +164,23 @@ const allCard = [
               class="border rounded flex flex-col items-center justify-center p-5 font-semibold text-gray-50 hover:text-[#ffd366] gap-6 bg-[#E1306C] font-poppins text-2xl"
               rel="noopener noreferrer"
             >
-              <Icon name="instagram-outline" class="w-20 h-20" />
+              <Icon name="instagram-outline" class="!w-20 !h-20" />
 
               @scio12_
             </a>
 
-          <div class="border rounded flex flex-wrap justify-center p-5 text-gray-50 bg-[#25D366]">
-            <Icon name="whatsapp" class="w-20 h-20" />
+          <div class="border rounded flex flex-wrap flex-col items-center justify-center p-5 text-gray-50 bg-[#25D366]">
+            <div class="flex justify-center flex-col sm:flex-col md:flex-row items-center">
+              <Icon name="whatsapp" class="!w-20 !h-20" />
+
+              <h1 class="font-poppins text-2xl font-semibold text-center mt-2 sm:mt-2">Contact Person (WA)</h1>
+            </div>
+
+            <hr class="my-2 w-full" />
+
+            <h2 class="text-xl font-lato font-bold">Budi</h2>
+            <h2 class="text-xl font-lato">+62 812-3456-7890</h2>
+            <a class="bg-gray-50 mt-4 text-xl w-full text-center text-[#25D366] rounded font-lato" href="/" target="_blank" rel="noopener noreferrer">Chat</a>
           </div>
         </div>
     </section>
