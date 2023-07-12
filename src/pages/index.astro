@@ -19,14 +19,17 @@ const allCard = [
   {
     heading: "Olimpiade",
     image: logoOlim,
+    explanation: "Siapkan dirimu untuk tantangan mengikuti kompetisi dengan bergabung dalam Divisi Olimpiade kami! Dapatkan pengalaman berharga dalam mengikuti lomba bergengsi dan raih prestasi yang akan menjadi kebanggaanmu. Buatlah portfolio unggulan yang akan membuka pintu kesuksesanmu di dunia akademik!"
   },
   {
     heading: "Teknik",
     image: logoTeknik,
+    explanation: "Apakah kamu memiliki semangat eksperimen dan ingin menguji batasan kemampuanmu? Divisi Teknik adalah wadah bagi pemimpi dan penemu masa depan. Bergabunglah dengan kami dan temukan kesenangan menciptakan inovasi dan merasakan sensasi menemukan solusi bagi masalah-masalah nyata!"
   },
   {
     heading: "Karya Tulis Ilmiah",
     image: logoKti,
+    explanation: "Ingin mengeksplorasi bidang ilmiah dan mengasah kemampuan menulismu? Divisi KTI adalah tempat yang tepat! Bergabunglah dengan kami untuk menggali pengetahuan, menyelami riset, dan menghasilkan karya ilmiah yang akan memukau dunia. Dengan KTI, tak ada batasan bagi imajinasimu!"
   },
 ];
 ---
@@ -44,6 +47,7 @@ const allCard = [
 
   <main class="dark:bg-neutral-950">
     <section
+      id="hero"
       class="flex h-screen justify-left items-center sm:p-16 p-10 bg-neutral-900"
     >
       <div class="flex gap-5 flex-col">
@@ -70,7 +74,7 @@ const allCard = [
         Siapa Kami?
       </h1>
       <div
-        class="font-light font-lato flex flex-wrap gap-10 text-xl md:flex-nowrap md:gap-18 lg:gap-12 lg:text-2xl"
+        class="font-light font-lato flex flex-wrap gap-10 text-xl md:flex-nowrap md:gap-18 lg:gap-12 lg:text-2xl leading-loose"
       >
         <p>
           KIR adalah singkatan dari Kelompok Ilmiah Remaja, ekstrakurikuler ini
@@ -87,7 +91,7 @@ const allCard = [
           merah, dan hijau melambangkan setiap bidang studi.
         </p>
       </div>
-      <div class="w-full flex justify-center mt-4">
+      <div class="w-full flex justify-center mt-6">
         <Image
           src={PenjelasanLogo}
           class="penjelasan-image"
@@ -96,6 +100,49 @@ const allCard = [
           width={920}
         />
       </div>
+    </section>
+
+    <section
+      id="divisi"
+      class="m-auto min-h-[160vh] px-6 pt-20 sm:px-14 sm:pt-20 md:px-16"
+    >
+      <h1
+        class="font-bold text-center dark:text-gray-50 font-poppins text-4xl sm:text-4xl md:text-5xl lg:text-6xl mb-8"
+      >
+        Divisi
+      </h1>
+      <div class="grid grid-cols-1 gap-10 md:gap-5 md:grid-cols-2 lg:grid-cols-3 items-center lg:mt-28">
+        {
+          allCard.map((card) => (
+            <div class="border rounded flex flex-wrap justify-center min-h-full">
+              <Image
+                src={card.image}
+                alt={`Logo dari divisi ${card.heading}`}
+                width={210}
+                height={210}
+                class="mt-6 lg:mt-0 lg:transform lg:-translate-y-20"
+              />
+              <div class="p-6 lg:transform lg:-translate-y-20">
+                  <h2 class="font-bold font-poppins text-xl sm:text-xl md:text-2xl lg:text-3xl mb-5">{card.heading}</h2>
+
+                  <p class="font-light font-lato text-lg lg:text-xl leading-loose">{card.explanation}</p>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </section>
+
+    <section id="bergabung"
+      class="m-auto min-h-[120vh] px-6 pt-24 sm:px-14 sm:pt-28 md:px-16"
+
+     >
+      <h1
+        class="font-bold dark:text-gray-50 font-poppins text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-8"
+      >
+        Bergabung
+      </h1>
+      <p class="font-lato text-2xl">Kamu bisa bergabung dengan mengisi form dan konformasi dengan menghubungi narahubung di bawah ini yaa!</p>
     </section>
   </main>
 </Layout>
