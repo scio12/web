@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 
 const navItems = [
-    { display: "Siapa Kami ?", section: "siapa-kami", onHover: "text-yellow-400" },
-    { display: "Divisi", section: "divisi", onHover: "text-green-500" },
-    { display: "Bergabung", section: "bergabung", onHover: "text-cyan-600" },
+    { display: "Siapa Kami?", section: "siapa-kami", onHover: "hover:text-yellow-400" },
+    { display: "Divisi", section: "divisi", onHover: "hover:text-green-500" },
+    { display: "Kontak", section: "kontak", onHover: "hover:text-cyan-600" },
 ];
 
 
@@ -77,7 +77,7 @@ export const Navbar: React.FC<{ children: React.ReactNode }> = ({
 
                                     if (isListVisible) setListVisible(false)
                                 }
-                            }} className={`md:p-4 py-2 block hover:${nav.onHover}`}>{nav.display}</button>
+                            }} className={`md:p-4 py-2 block ${nav.onHover}`}>{nav.display}</button>
                         </li>
                     ))}
                 </ul>
