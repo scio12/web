@@ -1,4 +1,4 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 
 import image from "@astrojs/image";
 import react from "@astrojs/react";
@@ -10,11 +10,14 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://scio12.vercel.app",
-  vite: {
-    ssr: {
-      noExternal: ["picnic"]
-    }
-  },
-  integrations: [image(), react(), robotsTxt(), sitemap(), tailwind()]
+  site: "https://scio12.netlify.app",
+  integrations: [
+    image({
+      serviceEntryPoint: "@astrojs/image/sharp",
+    }),
+    react(),
+    robotsTxt(),
+    sitemap(),
+    tailwind(),
+  ],
 });
