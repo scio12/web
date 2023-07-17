@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 
 const navItems = [
-    { display: "Siapa Kami?", section: "siapa-kami", onHover: "hover:text-yellow-400" },
-    { display: "Divisi", section: "divisi", onHover: "hover:text-green-500" },
-    { display: "Kontak", section: "kontak", onHover: "hover:text-cyan-600" },
+    { display: "Siapa Kami?", section: "siapa-kami", onHover: "hover:text-green-500" },
+    { display: "Divisi", section: "divisi", onHover: "hover:text-yellow-400" },
+    { display: "Kontak", section: "kontak", onHover: "hover:text-red-500" },
 ];
 
 
@@ -65,6 +65,9 @@ export const Navbar: React.FC<{ children: React.ReactNode }> = ({
                 <ul
                     className="pt-4 text-base text-gray-700 md:flex md:justify-between md:pt-0"
                 >
+                    <li>
+                        <a className="md:p-4 py-2 block hover:text-cyan-600" href="/skola">Pojok Sekolah</a>
+                    </li>
                     {navItems.map(nav => (
                         <li key={nav.section}>
                             <button onClick={() => {
