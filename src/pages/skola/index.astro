@@ -1,0 +1,38 @@
+---
+import Layout from "@layouts/Layout.astro";
+
+import { Navbar } from "@components/Navbar";
+import { Image } from "@astrojs/image/components";
+
+import scioImage from "@assets/kir-transparent.png";
+---
+
+<Layout
+    title="Pojok Sekolah Kelompok Ilmiah Remaja SMA Negeri 12 Bekasi"
+    description="Something"
+>
+    <Navbar
+        lists={[
+            { name: "Pojok Sekolah", href: "/skola" },
+            { name: "Blog", href: "/blog" },
+        ]}
+        client:idle
+    >
+        <Image
+            class="ml-[2px]"
+            width={32}
+            height={32}
+            src={scioImage}
+            format={"webp"}
+            alt="Gambar logo scio 12"
+        />
+    </Navbar>
+
+    <main>
+        <section class="h-screen flex justify-center items-center">
+            <h1 class="font-lato font-bold text-4xl">
+                🚧 Under Construction 🚧
+            </h1>
+        </section>
+    </main>
+</Layout>
