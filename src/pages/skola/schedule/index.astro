@@ -14,7 +14,10 @@ const scheduleDataSafe = await JadwalJson.parseAsync(rawScheduleData);
 const classList = scheduleDataSafe.map((schedule) => schedule.className);
 ---
 
-<Layout title="Jadwal Pelajaran | KIR SMAN 12 Bekasi" description="Something">
+<Layout
+  title="Jadwal Pelajaran | KIR SMAN 12 Bekasi"
+  description="Daftar jadwal pelajaran yang ada di SMAN 12 Bekasi"
+>
   <Navbar
     lists={[
       { name: "Blog", href: "/blog" },
