@@ -3,9 +3,11 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
+      "@data/*": ["src/data/*"],
+      "@utils/*": ["src/utils/*"],
       "@assets/*": ["src/assets/*"],
-      "@components/*": ["src/components/*"],
-      "@layouts/*": ["src/layouts/*"]
+      "@layouts/*": ["src/layouts/*"],
+      "@components/*": ["src/components/*"]
     },
     "verbatimModuleSyntax": true,
     "jsx": "react-jsx",

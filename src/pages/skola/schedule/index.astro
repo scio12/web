@@ -1,10 +1,17 @@
 ---
+import { JadwalJson } from "@utils/schedule";
 import Layout from "@layouts/Layout.astro";
 
 import { Navbar } from "@components/Navbar";
 import { Image } from "@astrojs/image/components";
 
 import scioImage from "@assets/kir-transparent.png";
+
+import rawScheduleData from "@data/jadwal.json";
+
+const scheduleDataSafe = await JadwalJson.parseAsync(rawScheduleData);
+
+const classList = scheduleDataSafe.map((schedule) => schedule.className);
 ---
 
 <Layout title="Jadwal Pelajaran | KIR SMAN 12 Bekasi" description="Something">
@@ -27,9 +34,22 @@ import scioImage from "@assets/kir-transparent.png";
 
   <header class="pt-[5rem] w-full">
     <h1 class="text-center text-poppins text-4xl lg:text-5xl font-medium">
-      Daftar Kelas
+      Jadwal Pelajaran
     </h1>
   </header>
 
-  <main></main>
+  <main
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 py-10 px-5"
+  >
+    {
+      classList.map((className) => (
+        <a
+          class="rounded border font-lato text-lg p-5 text-center"
+          href={`/skola/schedule/${className}`}
+        >
+          Kelas {className.replaceAll("-", " ")}
+        </a>
+      ))
+    }
+  </main>
 </Layout>
