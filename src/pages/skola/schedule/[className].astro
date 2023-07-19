@@ -1,13 +1,18 @@
 ---
 import { JadwalJson, WaktuJson, getDay, type IIndividualClass } from "@utils/schedule";
+import scioImage from "@assets/kir-transparent.png";
 import Layout from "@layouts/Layout.astro";
 
-import { DynamicDate } from "@components/DynamicDate"
+import { Image } from "@astrojs/image/components";
+
+import { DynamicDate } from "@components/DynamicDate";
+import { ClassNavigator } from "@components/ClassNavigator";
 
 import rawScheduleData from "@data/jadwal.json";
 import rawTimeData from "@data/waktu.json";
 
 const { TimeAllocation: timeAlloc, TZ: Timezone } = await WaktuJson.parseAsync(rawTimeData);
+const scheduleDataSafe = await JadwalJson.parseAsync(rawScheduleData);
 
 export async function getStaticPaths() {
   const scheduleDataSafe = await JadwalJson.parseAsync(rawScheduleData);
@@ -85,4 +90,15 @@ const { className, schedules } = Astro.props as IIndividualClass;
       ))
     }
   </main>
+
+  <ClassNavigator client:idle currentClass={className} classList={scheduleDataSafe.map((schedule) => schedule.className)}>
+    <Image
+        class="ml-[2px]"
+        width={32}
+        height={32}
+        src={scioImage}
+        format={"webp"}
+        alt="Gambar logo scio 12"
+      />
+  </ClassNavigator>
 </Layout>
