@@ -1,0 +1,35 @@
+---
+import Layout from "@layouts/Layout.astro";
+
+import { Navbar } from "@components/Navbar";
+import { Image } from "@astrojs/image/components";
+
+import scioImage from "@assets/kir-transparent.png";
+---
+
+<Layout title="Jadwal Pelajaran | KIR SMAN 12 Bekasi" description="Something">
+  <Navbar
+    lists={[
+      { name: "Blog", href: "/blog" },
+      { name: "Pojok Sekolah", href: "/skola" },
+    ]}
+    client:idle
+  >
+    <Image
+      class="ml-[2px]"
+      width={32}
+      height={32}
+      src={scioImage}
+      format={"webp"}
+      alt="Gambar logo scio 12"
+    />
+  </Navbar>
+
+  <header class="pt-[5rem] w-full">
+    <h1 class="text-center text-poppins text-4xl lg:text-5xl font-medium">
+      Daftar Kelas
+    </h1>
+  </header>
+
+  <main></main>
+</Layout>

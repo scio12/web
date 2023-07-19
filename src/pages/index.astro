@@ -18,22 +18,28 @@ const allCard = [
   {
     heading: "Olimpiade",
     image: logoOlim,
-    explanation: "Siapkan dirimu untuk tantangan mengikuti kompetisi dengan bergabung dalam Divisi Olimpiade kami! Dapatkan pengalaman berharga dalam mengikuti lomba bergengsi dan raih prestasi yang akan menjadi kebanggaanmu. Buatlah portfolio unggulan yang akan membuka pintu kesuksesanmu di dunia akademik!"
+    explanation:
+      "Siapkan dirimu untuk tantangan mengikuti kompetisi dengan bergabung dalam Divisi Olimpiade kami! Dapatkan pengalaman berharga dalam mengikuti lomba bergengsi dan raih prestasi yang akan menjadi kebanggaanmu. Buatlah portfolio unggulan yang akan membuka pintu kesuksesanmu di dunia akademik!",
   },
   {
     heading: "Teknik",
     image: logoTeknik,
-    explanation: "Apakah kamu memiliki semangat eksperimen dan ingin menguji batasan kemampuanmu? Divisi Teknik adalah wadah bagi pemimpi dan penemu masa depan. Bergabunglah dengan kami dan temukan kesenangan menciptakan inovasi dan merasakan sensasi menemukan solusi bagi masalah-masalah nyata!"
+    explanation:
+      "Apakah kamu memiliki semangat eksperimen dan ingin menguji batasan kemampuanmu? Divisi Teknik adalah wadah bagi pemimpi dan penemu masa depan. Bergabunglah dengan kami dan temukan kesenangan menciptakan inovasi dan merasakan sensasi menemukan solusi bagi masalah-masalah nyata!",
   },
   {
     heading: "Karya Tulis Ilmiah",
     image: logoKti,
-    explanation: "Ingin mengeksplorasi bidang ilmiah dan mengasah kemampuan menulismu? Divisi KTI adalah tempat yang tepat! Bergabunglah dengan kami untuk menggali pengetahuan, menyelami riset, dan menghasilkan karya ilmiah yang akan memukau dunia. Dengan KTI, tak ada batasan bagi imajinasimu!"
+    explanation:
+      "Ingin mengeksplorasi bidang ilmiah dan mengasah kemampuan menulismu? Divisi KTI adalah tempat yang tepat! Bergabunglah dengan kami untuk menggali pengetahuan, menyelami riset, dan menghasilkan karya ilmiah yang akan memukau dunia. Dengan KTI, tak ada batasan bagi imajinasimu!",
   },
 ];
 ---
 
-<Layout title="Kelompok Ilmiah Remaja SMA Negeri 12 Bekasi" description="KIR adalah singkatan dari Kelompok Ilmiah Remaja, tujuannya mengembangkan minat murid di bidang IPA dan teknologi.">
+<Layout
+  title="Kelompok Ilmiah Remaja SMA Negeri 12 Bekasi"
+  description="KIR adalah singkatan dari Kelompok Ilmiah Remaja, tujuannya mengembangkan minat murid di bidang IPA dan teknologi."
+>
   <Navbar client:idle>
     <Image
       class="ml-[2px]"
@@ -92,7 +98,11 @@ const allCard = [
         </p>
       </div>
       <div class="font-light font-lato text-xl mt-6 lg:text-2xl leading-loose">
-        <p>Untuk kegiatan reguler rutin, biasa diadakan setiap hari <u class="font-bold">Rabu</u>!</p>
+        <p>
+          Untuk kegiatan reguler rutin, biasa diadakan setiap hari <u
+            class="font-bold">Rabu</u
+          >!
+        </p>
       </div>
       <div class="w-full flex justify-center mt-6">
         <Image
@@ -115,7 +125,9 @@ const allCard = [
       >
         Divisi
       </h1>
-      <div class="grid grid-cols-1 gap-10 md:gap-5 md:grid-cols-2 lg:grid-cols-3 items-center lg:mt-28">
+      <div
+        class="grid grid-cols-1 gap-10 md:gap-5 md:grid-cols-2 lg:grid-cols-3 items-center lg:mt-28"
+      >
         {
           allCard.map((card) => (
             <div class="border rounded flex flex-wrap justify-center min-h-full">
@@ -128,9 +140,13 @@ const allCard = [
                 class="mt-6 lg:mt-0 lg:transform lg:-translate-y-20"
               />
               <div class="p-6 lg:transform lg:-translate-y-20">
-                  <h2 class="font-bold font-poppins text-center text-xl sm:text-xl md:text-2xl lg:text-3xl mb-5">{card.heading}</h2>
+                <h2 class="font-bold font-poppins text-center text-xl sm:text-xl md:text-2xl lg:text-3xl mb-5">
+                  {card.heading}
+                </h2>
 
-                  <p class="font-light font-lato text-lg lg:text-xl leading-loose">{card.explanation}</p>
+                <p class="font-light font-lato text-lg lg:text-xl leading-loose">
+                  {card.explanation}
+                </p>
               </div>
             </div>
           ))
@@ -138,107 +154,143 @@ const allCard = [
       </div>
     </section>
 
-    <section id="kontak"
+    <section
+      id="kontak"
       class="m-auto min-h-[120vh] px-6 pt-24 sm:px-14 sm:pt-20 md:px-16"
-     >
+    >
       <h1
         class="font-bold dark:text-gray-50 font-poppins text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-8"
       >
         Kontak
       </h1>
-      <p class="font-lato font-light text-2xl">Ingin bergabung, atau masih ada pertanyaan? Cek beberapa <i>resource</i> dibawah ini yaa!</p>
-        <div class="grid grid-cols-1 justify-between sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
-          <div class="border rounded flex flex-col justify-center items-center p-5 text-gray-50 bg-[#673ab7]">
-            <div class="flex justify-center gap-2 flex-col sm:flex-col md:flex-row items-center">
-              <Icon name="form" class="!w-20 !h-20" />
-
-              <h1 class="font-poppins text-2xl text-center md:text-start font-semibold">Form Pendaftaran</h1>
-            </div>
-
-            <hr class="my-2 w-full" />
-
-            <h2 class="text-xl font-lato">Scan QR di bawah</h2>
-
-            <Image
-              src={QRDaftar}
-              alt="Gambar QR Code pendaftaran"
-              format={"webp"}
-              width={150}
-              height={150}
-              class="mt-3"
-            />
-
-            <h3 class="text-xl font-lato mt-2">atau</h3>
-            <a class="bg-gray-50 mt-2 text-xl w-full text-center text-[#673ab7] rounded font-lato" href="https://forms.gle/LG4eVkAP8taL2rT8A" target="_blank" rel="noopener noreferrer">Daftar Disini</a>
-          </div>
-
-            <a 
-              href="https://instagram.com/scio12_"
-              target="_blank"
-              class="border rounded flex flex-col items-center justify-center p-5 font-semibold text-gray-50 hover:text-[#ffd366] gap-6 bg-[#E1306C] font-poppins text-2xl"
-              rel="noopener noreferrer"
-            >
-              <Icon name="instagram-outline" class="!w-20 !h-20" />
-
-              @scio12_
-            </a>
-
-          <div class="border rounded flex flex-col justify-between h-full p-5 text-gray-50 bg-[#075E54]">
-            <div>
-              <div class="flex justify-center flex-col sm:flex-col gap-2 md:flex-row items-center">
-                <Icon name="whatsapp" class="!w-20 !h-20" />
-                
-                <h1 class="font-poppins text-2xl font-semibold text-center mt-2 sm:mt-2">Contact Person (WA)</h1>
-              </div>
-
-              <hr class="mt-4 w-full" />
-            </div>
-
-            <div class="text-center my-10 lg:my-0">
-              <h2 class="text-2xl font-lato font-bold">Kak Zalfa</h2>
-              <h2 class="text-2xl font-lato">+62 898-8150-183</h2>
-            </div>
-            
-            <div>
-              <a class="bg-gray-50 text-xl block w-full text-center text-[#075E54] rounded font-lato" href="https://wa.me/628988150183" target="_blank" rel="noopener noreferrer">Chat</a>
-            </div>
-          </div>
-        </div>
-    </section>
-  </main>
-
-  <footer class="flex flex-wrap items-center justify-between px-4 border-t border-solid h-14 w-full mt-10">
-      <p class="ml-2 h-[inherit] flex items-center font-play font-semibold text-xl">
-        <span>SCI</span>
-        <Image
-          class="ml-[2px]"
-          width={32}
-          height={32}
-          src={scioImage}
-          format={"webp"}
-          alt="Gambar logo scio 12"
-        />
-        <span class="ml-1">12</span>
+      <p class="font-lato font-light text-2xl">
+        Ingin bergabung, atau masih ada pertanyaan? Cek beberapa <i>resource</i>
+        dibawah ini yaa!
       </p>
-      <div class="flex gap-3">
+      <div
+        class="grid grid-cols-1 justify-between sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8"
+      >
+        <div
+          class="border rounded flex flex-col justify-center items-center p-5 text-gray-50 bg-[#673ab7]"
+        >
+          <div
+            class="flex justify-center gap-2 flex-col sm:flex-col md:flex-row items-center"
+          >
+            <Icon name="form" class="!w-20 !h-20" />
+
+            <h1
+              class="font-poppins text-2xl text-center md:text-start font-semibold"
+            >
+              Form Pendaftaran
+            </h1>
+          </div>
+
+          <hr class="my-2 w-full" />
+
+          <h2 class="text-xl font-lato">Scan QR di bawah</h2>
+
+          <Image
+            src={QRDaftar}
+            alt="Gambar QR Code pendaftaran"
+            format={"webp"}
+            width={150}
+            height={150}
+            class="mt-3"
+          />
+
+          <h3 class="text-xl font-lato mt-2">atau</h3>
+          <a
+            class="bg-gray-50 mt-2 text-xl w-full text-center text-[#673ab7] rounded font-lato"
+            href="https://forms.gle/LG4eVkAP8taL2rT8A"
+            target="_blank"
+            rel="noopener noreferrer">Daftar Disini</a
+          >
+        </div>
+
         <a
           href="https://instagram.com/scio12_"
           target="_blank"
+          class="border rounded flex flex-col items-center justify-center p-5 font-semibold text-gray-50 hover:text-[#ffd366] gap-6 bg-[#E1306C] font-poppins text-2xl"
           rel="noopener noreferrer"
-          aria-label="Halaman instagram KIR SMAN 12 Bekasi"
-          >
-          <Icon name="instagram" />
+        >
+          <Icon name="instagram-outline" class="!w-20 !h-20" />
+
+          @scio12_
         </a>
 
-        <a
-          href="https://github.com/scio12"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Halaman Github KIR SMAN 12 Bekasi"
+        <div
+          class="border rounded flex flex-col justify-between h-full p-5 text-gray-50 bg-[#075E54]"
         >
-          <Icon name="github" />
-        </a>
+          <div>
+            <div
+              class="flex justify-center flex-col sm:flex-col gap-2 md:flex-row items-center"
+            >
+              <Icon name="whatsapp" class="!w-20 !h-20" />
+
+              <h1
+                class="font-poppins text-2xl font-semibold text-center mt-2 sm:mt-2"
+              >
+                Contact Person (WA)
+              </h1>
+            </div>
+
+            <hr class="mt-4 w-full" />
+          </div>
+
+          <div class="text-center my-10 lg:my-0">
+            <h2 class="text-2xl font-lato font-bold">Kak Zalfa</h2>
+            <h2 class="text-2xl font-lato">+62 898-8150-183</h2>
+          </div>
+
+          <div>
+            <a
+              class="bg-gray-50 text-xl block w-full text-center text-[#075E54] rounded font-lato"
+              href="https://wa.me/628988150183"
+              target="_blank"
+              rel="noopener noreferrer">Chat</a
+            >
+          </div>
+        </div>
       </div>
+    </section>
+  </main>
+
+  <footer
+    class="flex flex-wrap items-center justify-between px-4 border-t border-solid h-14 w-full mt-10"
+  >
+    <p
+      class="ml-2 h-[inherit] flex items-center font-play font-semibold text-xl"
+    >
+      <span>SCI</span>
+      <Image
+        class="ml-[2px]"
+        width={32}
+        height={32}
+        src={scioImage}
+        format={"webp"}
+        alt="Gambar logo scio 12"
+      />
+      <span class="ml-1">12</span>
+    </p>
+    <div class="flex gap-3">
+      <a
+        href="https://instagram.com/scio12_"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Halaman instagram KIR SMAN 12 Bekasi"
+      >
+        <Icon name="instagram" />
+      </a>
+
+      <a
+        href="https://github.com/scio12"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Halaman Github KIR SMAN 12 Bekasi"
+      >
+        <Icon name="github" />
+      </a>
+    </div>
   </footer>
 
   <style lang="css">
