@@ -76,7 +76,7 @@ const classList = scheduleDataSafe.map((schedule) => schedule.className);
   </main>
 
   <script>
-    const select = document.querySelector("select");
+    const select = document.querySelector("select") as HTMLSelectElement;
     const favoriteClass = localStorage.getItem("favorite-class");
 
     if (favoriteClass) {
@@ -85,8 +85,13 @@ const classList = scheduleDataSafe.map((schedule) => schedule.className);
     }
 
     select.addEventListener("change", (e) => {
-      localStorage.setItem("favorite-class", e.target.value);
-      document.location = `/skola/schedule/${e.target.value}`;
+      localStorage.setItem(
+        "favorite-class",
+        (e.target as HTMLSelectElement).value
+      );
+      document.location = `/skola/schedule/${
+        (e.target as HTMLSelectElement).value
+      }`;
     });
   </script>
 </Layout>

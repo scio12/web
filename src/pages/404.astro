@@ -21,7 +21,7 @@ import Layout from "@layouts/Layout.astro";
   </main>
 
   <script>
-    const btn = document.querySelector("button");
+    const btn = document.querySelector("button")!;
 
     btn.addEventListener("click", () => {
       localStorage.removeItem("favorite-class");
