@@ -5,73 +5,213 @@
       {
         "day": 1,
         "lessons": [
-          "BIO",
-          "BIO",
-          "BIO",
-          "FISIKA",
-          "FISIKA",
-          "FISIKA",
-          "PAI",
-          "PAI",
-          "PAI"
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "PJOK",
+            "name": "Nur aryyadi, S.Pd"
+          },
+          {
+            "lesson": "PJOK",
+            "name": "Nur aryyadi, S.Pd"
+          },
+          {
+            "lesson": "PJOK",
+            "name": "Nur aryyadi, S.Pd"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "B.INDO",
-          "B.INDO",
-          "B.INDO",
-          "B.INDO",
-          "PKN",
-          "PKN",
-          "PKWU",
-          "PKWU",
-          "B.INGGRIS",
-          "B.INGGRIS"
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "BK",
-          "EKO",
-          "EKO",
-          "EKO",
-          "TIK",
-          "TIK",
-          "TIK",
-          "PJOK",
-          "PJOK",
-          "PJOK"
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "GEO",
-          "GEO",
-          "GEO",
-          "KIMIA",
-          "KIMIA",
-          "KIMIA",
-          "SEJARAH",
-          "SEJARAH",
-          "SEJARAH"
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "SUNDA",
-          "SUNDA",
-          "SOSIO",
-          "SOSIO",
-          "SOSIO"
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "BK"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          }
         ]
       }
     ]
@@ -82,73 +222,213 @@
       {
         "day": 1,
         "lessons": [
-          "MTK",
-          "PKN",
-          "PKN",
-          "TIK",
-          "TIK",
-          "TIK",
-          "MTK",
-          "MTK",
-          "MTK"
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "BK"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PJOK",
+            "name": "Nur aryyadi, S.Pd"
+          },
+          {
+            "lesson": "PJOK",
+            "name": "Nur aryyadi, S.Pd"
+          },
+          {
+            "lesson": "PJOK",
+            "name": "Nur aryyadi, S.Pd"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "FISIKA",
-          "FISIKA",
-          "FISIKA",
-          "PAI",
-          "PAI",
-          "PAI",
-          "B.INDO",
-          "B.INDO",
-          "B.INDO",
-          "B.INDO"
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "SOSIO",
-          "SOSIO",
-          "SOSIO",
-          "PJOK",
-          "PJOK",
-          "PJOK",
-          "PKWU",
-          "PKWU",
-          "B.INGGRIS",
-          "B.INGGRIS"
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "KIMIA",
-          "KIMIA",
-          "KIMIA",
-          "GEO",
-          "GEO",
-          "GEO",
-          "BIO",
-          "BIO",
-          "BIO"
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "BK",
-          "EKO",
-          "EKO",
-          "EKO",
-          "SEJARAH",
-          "SEJARAH",
-          "SEJARAH",
-          "SUNDA",
-          "SUNDA"
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          }
         ]
       }
     ]
@@ -159,73 +439,213 @@
       {
         "day": 1,
         "lessons": [
-          "PAI",
-          "PAI",
-          "PAI",
-          "B.INGGRIS",
-          "PJOK",
-          "B.INDO",
-          "B.INDO",
-          "B.INDO",
-          "B.INDO"
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "Handri Zulkarnaen, S.Pd"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "Handri Zulkarnaen, S.Pd"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "PJOK",
-          "PJOK",
-          "SUNDA",
-          "SUNDA",
-          "TIK",
-          "TIK",
-          "TIK",
-          "B.INGGRIS",
-          "MTK",
-          "MTK"
+          {
+            "lesson": "PJOK",
+            "name": "Nur aryyadi, S.Pd"
+          },
+          {
+            "lesson": "PJOK",
+            "name": "Nur aryyadi, S.Pd"
+          },
+          {
+            "lesson": "PJOK",
+            "name": "Nur aryyadi, S.Pd"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Esya Endah Lathifah, S.SiT"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Esya Endah Lathifah, S.SiT"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "BIO",
-          "BIO",
-          "BIO",
-          "GEO",
-          "GEO",
-          "GEO",
-          "PKN",
-          "PKN",
-          "PKWU",
-          "PKWU"
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "BK"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "FISIKA",
-          "FISIKA",
-          "FISIKA",
-          "SEJARAH",
-          "SEJARAH",
-          "SEJARAH",
-          "EKO",
-          "EKO",
-          "EKO"
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "SOSIO",
-          "SOSIO",
-          "SOSIO",
-          "KIMIA",
-          "KIMIA",
-          "KIMIA",
-          "BK",
-          "MTK",
-          "MTK"
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          }
         ]
       }
     ]
@@ -236,73 +656,213 @@
       {
         "day": 1,
         "lessons": [
-          "B.INDO",
-          "B.INDO",
-          "B.INDO",
-          "B.INDO",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "PJOK",
-          "PJOK",
-          "PJOK"
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "Handri Zulkarnaen, S.Pd"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "Handri Zulkarnaen, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Esya Endah Lathifah, S.SiT"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Esya Endah Lathifah, S.SiT"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "PAI",
-          "PAI",
-          "PAI",
-          "BIO",
-          "BIO",
-          "BIO",
-          "PKN",
-          "PKN",
-          "SUNDA",
-          "SUNDA"
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "PJOK",
+            "name": "Nur aryyadi, S.Pd"
+          },
+          {
+            "lesson": "PJOK",
+            "name": "Nur aryyadi, S.Pd"
+          },
+          {
+            "lesson": "PJOK",
+            "name": "Nur aryyadi, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "KIMIA",
-          "KIMIA",
-          "KIMIA",
-          "SOSIO",
-          "SOSIO",
-          "SOSIO",
-          "BK",
-          "SEJARAH",
-          "SEJARAH",
-          "SEJARAH"
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "BK"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "TIK",
-          "TIK",
-          "TIK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "PKWU",
-          "PKWU"
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "FISIKA",
-          "FISIKA",
-          "FISIKA",
-          "GEO",
-          "GEO",
-          "GEO",
-          "EKO",
-          "EKO",
-          "EKO"
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          }
         ]
       }
     ]
@@ -313,73 +873,213 @@
       {
         "day": 1,
         "lessons": [
-          "SOSIO",
-          "SOSIO",
-          "SOSIO",
-          "PAI",
-          "PAI",
-          "PAI",
-          "BIO",
-          "BIO",
-          "BIO"
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "EKO",
-          "EKO",
-          "EKO",
-          "GEO",
-          "GEO",
-          "GEO",
-          "SUNDA",
-          "SUNDA",
-          "PKN",
-          "PKN"
+          {
+            "lesson": "SUNDA",
+            "name": "Esya Endah Lathifah, S.SiT"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Esya Endah Lathifah, S.SiT"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "Handri Zulkarnaen, S.Pd"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "Handri Zulkarnaen, S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "PJOK",
+            "name": "Nur aryyadi, S.Pd"
+          },
+          {
+            "lesson": "PJOK",
+            "name": "Nur aryyadi, S.Pd"
+          },
+          {
+            "lesson": "PJOK",
+            "name": "Nur aryyadi, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "PJOK",
-          "PJOK",
-          "PJOK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "B.INDO",
-          "B.INDO",
-          "B.INDO",
-          "B.INDO"
+          {
+            "lesson": "BK"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "SEJARAH",
-          "SEJARAH",
-          "SEJARAH",
-          "BK",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "KIMIA",
-          "KIMIA",
-          "KIMIA"
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "PKWU",
-          "TIK",
-          "TIK",
-          "TIK",
-          "MTK",
-          "PKWU",
-          "FIS",
-          "FIS",
-          "FIS"
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          }
         ]
       }
     ]
@@ -390,73 +1090,213 @@
       {
         "day": 1,
         "lessons": [
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "PAI",
-          "PAI",
-          "PAI"
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "KIMIA",
-          "KIMIA",
-          "KIMIA",
-          "PKWU",
-          "TIK",
-          "TIK",
-          "TIK",
-          "EKO",
-          "EKO",
-          "EKO"
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "Handri Zulkarnaen, S.Pd"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "Handri Zulkarnaen, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Esya Endah Lathifah, S.SiT"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Esya Endah Lathifah, S.SiT"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "PKN",
-          "PKN",
-          "SUNDA",
-          "SUNDA",
-          "SEJARAH",
-          "SEJARAH",
-          "SEJARAH",
-          "BIO",
-          "BIO",
-          "BIO"
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "BK"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "B.INDO",
-          "B.INDO",
-          "B.INDO",
-          "B.INDO",
-          "BK",
-          "PKWU",
-          "GEO",
-          "GEO",
-          "GEO"
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "PENJAS",
-          "PENJAS",
-          "PENJAS",
-          "SOSIO",
-          "SOSIO",
-          "SOSIO",
-          "FISIKA",
-          "FISIKA",
-          "FISIKA"
+          {
+            "lesson": "FISIKA",
+            "name": "Rianita, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rianita, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rianita, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          }
         ]
       }
     ]
@@ -467,73 +1307,213 @@
       {
         "day": 1,
         "lessons": [
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "PAI",
-          "PAI",
-          "PKN",
-          "PKN",
-          "MTK",
-          "MTK",
-          "MTK"
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "SEJARAH",
-          "SEJARAH",
-          "SEJARAH",
-          "KIMIA",
-          "SUNDA",
-          "SUNDA",
-          "PKWU",
-          "PKWU",
-          "KIMIA",
-          "KIMIA"
+          {
+            "lesson": "PKWU",
+            "name": "Handri Zulkarnaen, S.Pd"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "Handri Zulkarnaen, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "PENJAS",
-          "PENJAS",
-          "PENJAS",
-          "BIO",
-          "BIO",
-          "BIO",
-          "B.INDO",
-          "SOSIO",
-          "SOSIO",
-          "SOSIO"
+          {
+            "lesson": "SUNDA",
+            "name": "Esya Endah Lathifah, S.SiT"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Esya Endah Lathifah, S.SiT"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "BK"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "EKO",
-          "EKO",
-          "EKO",
-          "BK",
-          "MTK",
-          "PAI",
-          "B.INDO",
-          "B.INDO",
-          "B.INDO"
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "GEO",
-          "GEO",
-          "GEO",
-          "FISIKA",
-          "FISIKA",
-          "FISIKA",
-          "TIK",
-          "TIK",
-          "TIK"
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rianita, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rianita, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rianita, S.Pd"
+          }
         ]
       }
     ]
@@ -544,73 +1524,213 @@
       {
         "day": 1,
         "lessons": [
-          "EKO",
-          "EKO",
-          "EKO",
-          "SOSIOLOGI",
-          "SUNDA",
-          "SUNDA",
-          "KIMIA",
-          "KIMIA",
-          "KIMIA"
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "PAI",
-          "PAI",
-          "PAI",
-          "SEJARAH",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "B.INDO",
-          "B.INDO",
-          "B.INDO",
-          "B.INDO"
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Esya Endah Lathifah, S.SiT"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Esya Endah Lathifah, S.SiT"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "Handri Zulkarnaen, S.Pd"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "Handri Zulkarnaen, S.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "GEO",
-          "GEO",
-          "GEO",
-          "PKN",
-          "PKN",
-          "PKWU",
-          "PKWU",
-          "PENJAS",
-          "PENJAS",
-          "PENJAS"
+          {
+            "lesson": "FISIKA",
+            "name": "Rianita, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rianita, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rianita, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "BK"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "SOSIOLOGI",
-          "SOSIOLOGI",
-          "FISIKA",
-          "FISIKA",
-          "FISIKA"
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "SEJARAH",
-          "SEJARAH",
-          "TIK",
-          "TIK",
-          "TIK",
-          "BK",
-          "BIO",
-          "BIO",
-          "BIO"
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          }
         ]
       }
     ]
@@ -621,73 +1741,213 @@
       {
         "day": 1,
         "lessons": [
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "SUNDA",
-          "SUNDA",
-          "PKWU",
-          "B.INDO",
-          "B.INDO",
-          "PKN",
-          "PKN"
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Esya Endah Lathifah, S.SiT"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Esya Endah Lathifah, S.SiT"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "KIMIA",
-          "KIMIA",
-          "KIMIA",
-          "PAI",
-          "PAI",
-          "PAI",
-          "GEO",
-          "GEO",
-          "GEO",
-          "PKWU"
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "Handri Zulkarnaen, S.Pd"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "Handri Zulkarnaen, S.Pd"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "SEJARAH",
-          "SEJARAH",
-          "SEJARAH",
-          "TIK",
-          "TIK",
-          "TIK",
-          "EKO",
-          "EKO",
-          "EKO",
-          "SOSIOLOGI"
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rianita, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rianita, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rianita, S.Pd"
+          },
+          {
+            "lesson": "BK"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "PENJAS",
-          "PENJAS",
-          "PENJAS",
-          "FISIKA",
-          "FISIKA",
-          "FISIKA",
-          "SOSIOLOGI",
-          "SOSIOLOGI",
-          "BK"
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "BIO",
-          "BIO",
-          "BIO",
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "B.INDO",
-          "B.INDO"
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          }
         ]
       }
     ]
@@ -698,73 +1958,213 @@
       {
         "day": 1,
         "lessons": [
-          "PENJAS",
-          "PENJAS",
-          "PENJAS",
-          "TIK",
-          "TIK",
-          "TIK",
-          "EKO",
-          "EKO",
-          "EKO"
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "Handri Zulkarnaen, S.Pd"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "Handri Zulkarnaen, S.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "B.INDO",
-          "B.INDO",
-          "B.INDO",
-          "B.INDO",
-          "SEJARAH",
-          "SEJARAH",
-          "SEJARAH",
-          "PAI",
-          "PAI",
-          "PAI"
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Esya Endah Lathifah, S.SiT"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Esya Endah Lathifah, S.SiT"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "PKWU",
-          "PKWU",
-          "KIMIA",
-          "KIMIA",
-          "SUNDA",
-          "SUNDA",
-          "GEO",
-          "GEO",
-          "GEO",
-          "KIMIA"
+          {
+            "lesson": "BK"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "SOSIOLOGI",
-          "PKN",
-          "PKN",
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK"
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Aat Dwiati, S.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "FISIKA",
-          "FISIKA",
-          "FISIKA",
-          "BIO",
-          "BIO",
-          "BIO",
-          "BK",
-          "SOSIOLOGI",
-          "SOSIOLOGI"
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rianita, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rianita, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rianita, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          }
         ]
       }
     ]
@@ -775,73 +2175,214 @@
       {
         "day": 1,
         "lessons": [
-          "KIMIA",
-          "KIMIA",
-          "KIMIA",
-          "KIMIA",
-          "KIMIA",
-          "B. INDO",
-          "B. INDO",
-          "B.INGGRIS",
-          "B.INGGRIS"
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "SENI",
-          "SENI",
-          "B.INGGRIS",
-          "PAI",
-          "MTK",
-          "Sosiologi",
-          "BIOLOGI",
-          "MTK",
-          "MTK",
-          "MTK"
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Irsyan Muhammad Ramadhan, S.Pd"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Irsyan Muhammad Ramadhan, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "PKN",
-          "PKN",
-          "MTK",
-          "MTK",
-          "PAI",
-          "PAI",
-          "MTK",
-          "MTK",
-          "MTK",
-          "B.INGGRIS"
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "BIOLOGI",
-          "BIOLOGI",
-          "BIOLOGI",
-          "BIOLOGI",
-          "Sosiologi",
-          "Sosiologi",
-          "PENJAS",
-          "PENJAS",
-          "PENJAS"
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "SEJARAH",
-          "SEJARAH",
-          "Sosiologi",
-          "Sosiologi",
-          "B. INDO",
-          "B. INDO",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "B.INGGRIS"
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          }
         ]
       }
     ]
@@ -852,73 +2393,214 @@
       {
         "day": 1,
         "lessons": [
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "PENJAS",
-          "PENJAS",
-          "PENJAS"
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "B. INDO",
-          "B. INDO",
-          "B. INDO",
-          "B. INDO",
-          "SENI",
-          "SENI",
-          "Sosiologi",
-          "Sosiologi",
-          "Sosiologi",
-          "Sosiologi"
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Irsyan Muhammad Ramadhan, S.Pd"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Irsyan Muhammad Ramadhan, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "PAI",
-          "PAI",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "PKN",
-          "PKN",
-          "MTK",
-          "MTK"
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "KIMIA",
-          "KIMIA",
-          "KIMIA",
-          "SEJARAH",
-          "MTK",
-          "MTK",
-          "BIOLOGI",
-          "BIOLOGI",
-          "BIOLOGI"
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Novita Kwasisriuni S.Pd, M.Si"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "PAI",
-          "MTK",
-          "BIOLOGI",
-          "BIOLOGI",
-          "Sosiologi",
-          "B.INGGRIS",
-          "KIMIA",
-          "KIMIA",
-          "KIMIA"
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          }
         ]
       }
     ]
@@ -929,73 +2611,214 @@
       {
         "day": 1,
         "lessons": [
-          "MTK",
-          "MTK",
-          "MTK",
-          "PENJAS",
-          "PENJAS",
-          "PENJAS",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "B.INGGRIS"
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "BIOLOGI",
-          "BIOLOGI",
-          "SENI",
-          "SENI",
-          "B. INDO",
-          "B. INDO",
-          "B. INDO",
-          "B. INDO",
-          "B.INGGRIS",
-          "B.INGGRIS"
+          {
+            "lesson": "SENI",
+            "name": "Irsyan Muhammad Ramadhan, S.Pd"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Irsyan Muhammad Ramadhan, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "BIOLOGI",
-          "PAI",
-          "PAI",
-          "PAI"
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "Sosiologi",
-          "Sosiologi",
-          "MTK",
-          "MTK",
-          "KIMIA",
-          "KIMIA",
-          "KIMIA",
-          "PKN",
-          "PKN"
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "BIOLOGI",
-          "BIOLOGI",
-          "KIMIA",
-          "SEJARAH",
-          "SEJARAH",
-          "KIMIA",
-          "Sosiologi",
-          "Sosiologi",
-          "Sosiologi"
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          }
         ]
       }
     ]
@@ -1006,73 +2829,214 @@
       {
         "day": 1,
         "lessons": [
-          "PENJAS",
-          "PENJAS",
-          "PENJAS",
-          "PKN",
-          "MTK",
-          "MTK",
-          "MTK",
-          "KIMIA",
-          "KIMIA"
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "Sosiologi",
-          "Sosiologi",
-          "Sosiologi",
-          "KIMIA",
-          "KIMIA",
-          "KIMIA",
-          "SENI",
-          "SENI",
-          "B. INDO",
-          "B. INDO"
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Irsyan Muhammad Ramadhan, S.Pd"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Irsyan Muhammad Ramadhan, S.Pd"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "SEJARAH",
-          "SEJARAH",
-          "B. INDO",
-          "B. INDO",
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "B.INGGRIS",
-          "B.INGGRIS"
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Tamia Agustina, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "PAI",
-          "PAI",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "PKN",
-          "PAI",
-          "B.INGGRIS",
-          "MTK",
-          "MTK"
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "Sosiologi",
-          "Sosiologi",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "BIOLOGI",
-          "BIOLOGI",
-          "BIOLOGI",
-          "BIOLOGI",
-          "BIOLOGI"
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Ari Utami Hijriyanti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          }
         ]
       }
     ]
@@ -1083,73 +3047,214 @@
       {
         "day": 1,
         "lessons": [
-          "TIK",
-          "TIK",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "PAI"
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "B. INDO",
-          "B. INDO",
-          "B. INDO",
-          "B. INDO",
-          "GEO",
-          "GEO",
-          "GEO",
-          "TIK",
-          "TIK",
-          "TIK"
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Irsyan Muhammad Ramadhan, S.Pd"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Irsyan Muhammad Ramadhan, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "SEJARAH",
-          "SEJARAH",
-          "GEO",
-          "GEO",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "SENI",
-          "SENI"
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "PENJAS",
-          "PENJAS",
-          "PENJAS",
-          "PAI",
-          "PAI",
-          "PKN",
-          "PKN",
-          "FISIIKA",
-          "B.INGGRIS"
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "FISIIKA",
-          "FISIIKA",
-          "MTK",
-          "MTK",
-          "FISIIKA",
-          "FISIIKA",
-          "MTK",
-          "MTK",
-          "MTK"
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          }
         ]
       }
     ]
@@ -1160,73 +3265,214 @@
       {
         "day": 1,
         "lessons": [
-          "FISIIKA",
-          "FISIIKA",
-          "FISIIKA",
-          "FISIIKA",
-          "FISIIKA",
-          "B. INDO",
-          "B. INDO",
-          "B. INDO",
-          "B. INDO"
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK"
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "PAI",
-          "PAI",
-          "SENI",
-          "SENI",
-          "PENJAS",
-          "PENJAS",
-          "PENJAS",
-          "B.INGGRIS",
-          "SEJARAH",
-          "SEJARAH"
+          {
+            "lesson": "SENI",
+            "name": "Irsyan Muhammad Ramadhan, S.Pd"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Irsyan Muhammad Ramadhan, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "PKN",
-          "PKN",
-          "PAI",
-          "GEO",
-          "GEO",
-          "GEO",
-          "MTK",
-          "GEO",
-          "GEO"
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Siswanti, S.Kom"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Krishnna P., S.Pd, M.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "TIK",
-          "TIK",
-          "TIK",
-          "TIK",
-          "TIK"
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Anang Bayu Rusnanto, S.Pd"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          }
         ]
       }
     ]
@@ -1237,73 +3483,214 @@
       {
         "day": 1,
         "lessons": [
-          "B. INDO",
-          "B. INDO",
-          "B. INDO",
-          "B. INDO",
-          "EKO",
-          "EKO",
-          "EKO",
-          "FISIIKA",
-          "FISIIKA"
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "JEPANG",
+            "name": "Teti Desmayanti, SE"
+          },
+          {
+            "lesson": "JEPANG",
+            "name": "Teti Desmayanti, SE"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "JEPANG",
-          "JEPANG",
-          "JEPANG",
-          "Sosiologi",
-          "Sosiologi",
-          "MTK",
-          "EKO",
-          "EKO",
-          "SENI",
-          "SENI"
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "FISIIKA",
-          "FISIIKA",
-          "Sosiologi",
-          "Sosiologi",
-          "SEJARAH",
-          "SEJARAH",
-          "Sosiologi",
-          "PAI",
-          "PAI",
-          "PAI"
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Irsyan Muhammad Ramadhan, S.Pd"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Irsyan Muhammad Ramadhan, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "PENJAS",
-          "PENJAS",
-          "FISIIKA",
-          "PKN",
-          "PKN"
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "JEPANG",
+            "name": "Teti Desmayanti, SE"
+          },
+          {
+            "lesson": "JEPANG",
+            "name": "Teti Desmayanti, SE"
+          },
+          {
+            "lesson": "JEPANG",
+            "name": "Teti Desmayanti, SE"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "JEPANG",
-          "JEPANG",
-          "PENJAS",
-          "B.INGGRIS",
-          "B.INGGRIS"
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          }
         ]
       }
     ]
@@ -1314,73 +3701,214 @@
       {
         "day": 1,
         "lessons": [
-          "Sosiologi",
-          "Sosiologi",
-          "Sosiologi",
-          "Sosiologi",
-          "Sosiologi",
-          "FISIIKA",
-          "FISIIKA",
-          "SEJARAH",
-          "SEJARAH"
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "JEPANG",
+            "name": "Teti Desmayanti, SE"
+          },
+          {
+            "lesson": "JEPANG",
+            "name": "Teti Desmayanti, SE"
+          },
+          {
+            "lesson": "JEPANG",
+            "name": "Teti Desmayanti, SE"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "MTK",
-          "MTK",
-          "FISIIKA",
-          "FISIIKA",
-          "EKO",
-          "EKO",
-          "JEPANG",
-          "JEPANG",
-          "JEPANG",
-          "JEPANG"
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "SENI",
-          "SENI",
-          "PAI",
-          "PAI",
-          "PAI",
-          "JEPANG",
-          "MTK",
-          "MTK",
-          "PENJAS",
-          "PENJAS"
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Irsyan Muhammad Ramadhan, S.Pd"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Irsyan Muhammad Ramadhan, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "B. INDO",
-          "B. INDO",
-          "B. INDO",
-          "B. INDO",
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK"
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "JEPANG",
+            "name": "Teti Desmayanti, SE"
+          },
+          {
+            "lesson": "JEPANG",
+            "name": "Teti Desmayanti, SE"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "PKN",
-          "PKN",
-          "FISIIKA",
-          "PENJAS",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "EKO",
-          "EKO",
-          "EKO"
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          }
         ]
       }
     ]
@@ -1391,73 +3919,214 @@
       {
         "day": 1,
         "lessons": [
-          "TIK",
-          "TIK",
-          "BIOLOGI",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "PENJAS",
-          "PENJAS"
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "BIOLOGI",
-          "BIOLOGI",
-          "BIOLOGI",
-          "BIOLOGI",
-          "B.INGGRIS",
-          "TIK",
-          "TIK",
-          "TIK"
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "MTK",
-          "MTK",
-          "FISIIKA",
-          "FISIIKA",
-          "MTK",
-          "MTK",
-          "SENI",
-          "SENI",
-          "SOSIOLOGI",
-          "PENJAS"
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Irsyan Muhammad Ramadhan, S.Pd"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Irsyan Muhammad Ramadhan, S.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "SOSIOLOGI",
-          "FISIIKA",
-          "FISIIKA",
-          "FISIIKA",
-          "B. INDO",
-          "B. INDO",
-          "PAI",
-          "PAI",
-          "PAI"
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Ludfil Khakim, S.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "B. INDO",
-          "B. INDO",
-          "PKN",
-          "PKN",
-          "SOSIOLOGI",
-          "SOSIOLOGI",
-          "SOSIOLOGI",
-          "SEJARAH",
-          "SEJARAH"
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          },
+          {
+            "lesson": "FISIIKA",
+            "name": "Ari Wijaya, M.Pd"
+          }
         ]
       }
     ]
@@ -1468,73 +4137,214 @@
       {
         "day": 1,
         "lessons": [
-          "BK/PAI",
-          "BK/PAI",
-          "BK/PAI",
-          "BIOLOGI",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "SOSIOLOGI",
-          "BIOLOGI",
-          "BIOLOGI"
+          {
+            "lesson": "BK/PAI",
+            "name": "Abdul Aziz , S.Pdi"
+          },
+          {
+            "lesson": "BK/PAI",
+            "name": "Abdul Aziz , S.Pdi"
+          },
+          {
+            "lesson": "BK/PAI",
+            "name": "Abdul Aziz , S.Pdi"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "PENJAS",
-          "PENJAS",
-          "PENJAS",
-          "SOSIOLOGI",
-          "B. INDO",
-          "B. INDO",
-          "SOSIOLOGI",
-          "SOSIOLOGI",
-          "BIOLOGI",
-          "BIOLOGI"
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "MTK",
-          "MTK",
-          "B. INDO",
-          "B. INDO",
-          "FIS",
-          "FIS",
-          "SENI",
-          "SENI"
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "BIOLOGI",
+            "name": "Saptiawati, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "FIS",
-          "FIS",
-          "FIS",
-          "SOSIOLOGI",
-          "TIK",
-          "TIK",
-          "TIK",
-          "TIK",
-          "TIK"
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Wahyu Aji Pasmah, S.Pd"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "SEJARAH",
-          "SEJARAH",
-          "PKN",
-          "PKN",
-          "B.INGGRIS",
-          "MTK",
-          "MTK"
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          },
+          {
+            "lesson": "TIK",
+            "name": "Kanti Nurhayati, S.Kom"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Nurdamayanti, S.Pd"
+          }
         ]
       }
     ]
@@ -1545,73 +4355,214 @@
       {
         "day": 1,
         "lessons": [
-          "B.INDO",
-          "B.INDO",
-          "B.INDO",
-          "B.INDO",
-          "B.INDO",
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK"
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "PENJAS",
-          "PENJAS",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "SENI",
-          "SENI"
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Abimanyu Yuditya, S.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Aom Prapta Kusuma, SH"
+          },
+          {
+            "lesson": "BK/PAI",
+            "name": "Abdul Aziz , S.Pdi"
+          },
+          {
+            "lesson": "BK/PAI",
+            "name": "Abdul Aziz , S.Pdi"
+          },
+          {
+            "lesson": "BK/PAI",
+            "name": "Abdul Aziz , S.Pdi"
+          },
+          {
+            "lesson": "JEPANG",
+            "name": "Teti Desmayanti, SE"
+          },
+          {
+            "lesson": "JEPANG",
+            "name": "Teti Desmayanti, SE"
+          },
+          {
+            "lesson": "JEPANG",
+            "name": "Teti Desmayanti, SE"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "B.INGGRIS",
-          "PENJAS",
-          "EKO",
-          "EKO",
-          "SEJARAH",
-          "SEJARAH",
-          "JEPANG",
-          "JEPANG",
-          "FIS",
-          "FIS"
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "BK/PAI",
-          "BK/PAI",
-          "BK/PAI",
-          "FIS",
-          "FIS",
-          "FIS",
-          "EKO",
-          "EKO",
-          "EKO"
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "JEPANG",
+            "name": "Teti Desmayanti, SE"
+          },
+          {
+            "lesson": "JEPANG",
+            "name": "Teti Desmayanti, SE"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "JEPANG",
-          "JEPANG",
-          "JEPANG",
-          "B. INDO",
-          "B. INDO",
-          "B. INDO",
-          "B. INDO",
-          "PKN",
-          "PKN"
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          }
         ]
       }
     ]
@@ -1622,73 +4573,213 @@
       {
         "day": 1,
         "lessons": [
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "PKN",
-          "PKN",
-          "BK",
-          "B.INGGRIS",
-          "B.INGGRIS"
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "SENI",
-          "SENI",
-          "EKO",
-          "EKO",
-          "PAI",
-          "PAI",
-          "KIMIA",
-          "KIMIA",
-          "PKWU",
-          "PKWU"
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "B.INDO",
-          "B.INDO",
-          "B.INDO",
-          "PAI",
-          "EKO",
-          "EKO",
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK"
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "BIO",
-          "BIO",
-          "BIO",
-          "BIO",
-          "BK",
-          "KIMIA",
-          "FISIKA",
-          "FISIKA",
-          "FISIKA"
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "BK"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "SEJARAH",
-          "SEJARAH",
-          "SUNDA",
-          "SUNDA",
-          "PENJAS",
-          "PENJAS",
-          "PENJAS",
-          "B.INDO",
-          "FISIKA"
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          }
         ]
       }
     ]
@@ -1699,73 +4790,213 @@
       {
         "day": 1,
         "lessons": [
-          "PAI",
-          "PAI",
-          "PAI",
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "PKN",
-          "PKN"
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "SENI",
-          "SENI",
-          "FISIKA",
-          "FISIKA",
-          "FISIKA",
-          "FISIKA",
-          "KIMIA",
-          "KIMIA"
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "EKO",
-          "EKO",
-          "PKWU",
-          "PKWU",
-          "B.INDO",
-          "B.INDO",
-          "PENJAS",
-          "PENJAS",
-          "PENJAS",
-          "BK"
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "B.INDO",
-          "B.INDO",
-          "EKO",
-          "EKO",
-          "BIO",
-          "BIO",
-          "BIO",
-          "BIO",
-          "MTK"
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "SUNDA",
-          "SUNDA",
-          "SEJARAH",
-          "SEJARAH",
-          "KIMIA",
-          "MTK",
-          "MTK",
-          "MTK",
-          ""
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "BK"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          }
         ]
       }
     ]
@@ -1776,73 +5007,213 @@
       {
         "day": 1,
         "lessons": [
-          "B. INDO",
-          "B. INDO",
-          "B. INDO",
-          "B. INDO",
-          "BIO",
-          "BIO",
-          "BIO",
-          "SENI",
-          "SENI"
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "EKO",
-          "EKO",
-          "PKN",
-          "PKN",
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "FISIKA",
-          "FISIKA"
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "PKWU",
-          "PKWU",
-          "FISIKA",
-          "FISIKA",
-          "KIMIA",
-          "KIMIA",
-          "KIMIA",
-          "EKO",
-          "EKO",
-          "SUNDA"
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          },
+          {
+            "lesson": "FISIKA",
+            "name": "Rini Andayani, S,Si, S.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "SUNDA",
-          "PENJAS",
-          "PENJAS",
-          "PENJAS",
-          "PAI",
-          "PAI",
-          "PAI"
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "BIO",
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "BK",
-          "SEJARAH",
-          "SEJARAH",
-          ""
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Sri Sudarsih, SE, M.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "BK"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          }
         ]
       }
     ]
@@ -1853,73 +5224,213 @@
       {
         "day": 1,
         "lessons": [
-          "PKWU",
-          "PKWU",
-          "SUNDA",
-          "SUNDA",
-          "PAI",
-          "PAI",
-          "PAI",
-          "BIO",
-          "BIO"
+          {
+            "lesson": "PKWU",
+            "name": "Handri Zulkarnaen, S.Pd"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "Handri Zulkarnaen, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "SENI",
-          "SENI",
-          "BK",
-          "PENJAS",
-          "PENJAS",
-          "PENJAS"
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "JERMAN",
-          "JERMAN",
-          "JERMAN",
-          "KIMIA",
-          "FIS",
-          "FIS",
-          "BK",
-          "B.INDO",
-          "KIMIA",
-          "KIMIA"
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "PKN",
-          "PKN",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "FIS"
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "BK"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "B.INDO",
-          "B.INDO",
-          "B.INDO",
-          "BK",
-          "SEJARAH",
-          "SEJARAH",
-          "BIO",
-          "BIO",
-          "JERMAN"
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Trimul Yanti, S.Pd"
+          }
         ]
       }
     ]
@@ -1930,73 +5441,213 @@
       {
         "day": 1,
         "lessons": [
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "JERMAN",
-          "JERMAN",
-          "JERMAN",
-          "B.INDO",
-          "B.INDO"
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "PKN",
-          "PKN",
-          "PKWU",
-          "PKWU",
-          "B.INDO",
-          "B.INDO",
-          "PAI",
-          "PAI",
-          "PAI",
-          "BK"
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "FIS",
-          "FIS",
-          "SUNDA",
-          "SUNDA",
-          "MTK",
-          "MTK",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "SEJARAH",
-          "SEJARAH"
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "MTK",
-          "MTK",
-          "JERMAN",
-          "PENJAS",
-          "PENJAS",
-          "PENJAS",
-          "SENI",
-          "SENI",
-          "BIO"
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "BK"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "FIS",
-          "FIS",
-          "FIS",
-          "BIO",
-          "BIO",
-          "BIO",
-          "KIMIA",
-          "KIMIA",
-          "KIMIA"
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          }
         ]
       }
     ]
@@ -2007,73 +5658,213 @@
       {
         "day": 1,
         "lessons": [
-          "FIS",
-          "FIS",
-          "FIS",
-          "FIS",
-          "MTK",
-          "SENI",
-          "SENI",
-          "PKWU",
-          "PKWU"
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "PAI",
-          "PAI",
-          "PAI",
-          "BK",
-          "PKN",
-          "PKN",
-          "BIO",
-          "BIO",
-          "BIO",
-          "BIO"
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Drs. Bukhori, M,Si"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "BIO",
+            "name": "Drs. Hendra Yeanny, M.Pd"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          },
+          {
+            "lesson": "KIMIA",
+            "name": "Moch. Machruf"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "SEJARAH",
-          "SEJARAH",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "SUNDA",
-          "SUNDA",
-          "JERMAN",
-          "JERMAN",
-          "JERMAN",
-          "JERMAN"
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "PENJAS",
-          "PENJAS",
-          "PENJAS",
-          "MTK",
-          "MTK",
-          "B.INDO",
-          "MTK",
-          "MTK",
-          "MTK"
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Dimas Irham Muharam, M.Pdi"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Imam Hadiyar, S.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "KIMIA",
-          "KIMIA",
-          "KIMIA",
-          "B.INDO",
-          "B.INDO",
-          "B.INDO",
-          "MTK",
-          "MTK",
-          ""
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Via Mona Vidya, S,Si"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "FIS",
+            "name": "Siti Rochaeni, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Ferani Nurbaiti, S.Pd"
+          },
+          {
+            "lesson": "BK"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          }
         ]
       }
     ]
@@ -2084,73 +5875,213 @@
       {
         "day": 1,
         "lessons": [
-          "PKWU",
-          "PKWU",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "MTK",
-          "MTK",
-          "PENJAS",
-          "PENJAS",
-          "PENJAS"
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "BK"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "JERMAN",
-          "JERMAN",
-          "MTK",
-          "MTK",
-          "SEJARAH",
-          "SEJARAH",
-          "PAI",
-          "PAI",
-          "PAI",
-          "SOSIOLOGI"
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "GEO",
-          "GEO",
-          "GEO",
-          "GEO",
-          "B. INDO",
-          "B. INDO",
-          "SENI",
-          "SENI",
-          "B. INDO",
-          "B. INDO"
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "SUNDA",
-          "SUNDA",
-          "PKN",
-          "PKN",
-          "EKO",
-          "EKO",
-          "EKO",
-          "EKO",
-          "SOSIOLOGI"
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "SOSIOLOGI",
-          "SOSIOLOGI",
-          "BK",
-          "JERMAN",
-          "JERMAN",
-          "SEJARAH",
-          "SEJARAH",
-          "SEJARAH",
-          "SEJARAH"
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          }
         ]
       }
     ]
@@ -2161,73 +6092,213 @@
       {
         "day": 1,
         "lessons": [
-          "SOSIOLOGI",
-          "SOSIOLOGI",
-          "SOSIOLOGI",
-          "BK",
-          "GEO",
-          "GEO",
-          "GEO",
-          "GEO",
-          "SOSIOLOGI"
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "SEJARAH",
-          "SEJARAH",
-          "JERMAN",
-          "JERMAN",
-          "JERMAN",
-          "SUNDA",
-          "SUNDA",
-          "PKN",
-          "PKN",
-          "PAI"
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "B. INDO",
-          "B. INDO",
-          "EKO",
-          "EKO",
-          "EKO",
-          "EKO",
-          "B. INDO",
-          "B. INDO",
-          "PAI",
-          "PAI"
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "MTK",
-          "MTK",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "SENI",
-          "SENI",
-          "SEJARAH",
-          "SEJARAH",
-          "SEJARAH"
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Pipit Awwalina F. Y.,S.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "PKWU",
-          "PKWU",
-          "SEJARAH",
-          "PENJAS",
-          "PENJAS",
-          "PENJAS",
-          "JERMAN",
-          "MTK",
-          "MTK"
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "BK"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          }
         ]
       }
     ]
@@ -2238,73 +6309,213 @@
       {
         "day": 1,
         "lessons": [
-          "SEJARAH",
-          "SEJARAH",
-          "SEJARAH",
-          "SEJARAH",
-          "SUNDA",
-          "SUNDA",
-          "BK",
-          "SOSIO",
-          "SOSIO"
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "BK"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "PKWU",
-          "PKWU",
-          "SEJARAH",
-          "SEJARAH",
-          "MTK",
-          "MTK",
-          "MTK",
-          "MTK",
-          "SOSIO",
-          "SOSIO"
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "EKO",
-          "EKO",
-          "SENI",
-          "SENI",
-          "PKN",
-          "PKN",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "B.INGGRIS"
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "GEO",
-          "GEO",
-          "EKO",
-          "EKO",
-          "B. INDO",
-          "B. INDO",
-          "B. INDO",
-          "B.INGGRIS",
-          "B.INGGRIS"
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "PAI",
-          "PAI",
-          "PAI",
-          "B. INDO",
-          "GEO",
-          "GEO",
-          "PENJAS",
-          "PENJAS",
-          "PENJAS"
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          }
         ]
       }
     ]
@@ -2315,73 +6526,213 @@
       {
         "day": 1,
         "lessons": [
-          "MTK",
-          "MTK",
-          "MTK",
-          "PENJAS",
-          "PENJAS",
-          "PENJAS",
-          "MTK",
-          "SUNDA",
-          "SUNDA"
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "GEO",
-          "GEO",
-          "GEO",
-          "GEO",
-          "SOSIO",
-          "SOSIO",
-          "SOSIO",
-          "SOSIO",
-          "SEJARAH",
-          "SEJARAH"
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Ade Syaeful Bahri, S.Pd, M.Pd"
+          },
+          {
+            "lesson": "BK"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Sugiono, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "SENI",
-          "SENI",
-          "PKN",
-          "PKN",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "EKO",
-          "EKO",
-          "EKO",
-          "EKO"
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "SEJARAH",
-          "SEJARAH",
-          "B. INDO",
-          "B. INDO",
-          "SEJARAH",
-          "SEJARAH",
-          "JERMAN",
-          "B. INDO",
-          "B. INDO"
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "GEO",
+            "name": "Dra. Hj. Wiwiek Herawati, M,Si"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "JERMAN",
-          "JERMAN",
-          "JERMAN",
-          "PAI",
-          "PAI",
-          "PAI",
-          "BK",
-          "PKWU",
-          "PKWU"
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Endah Priyati, M.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Dra. Sarwini"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "SOSIO",
+            "name": "Carlince BS, SH, M,Si"
+          },
+          {
+            "lesson": "JERMAN",
+            "name": "Shofa Shofura Sholihah, S,Hum"
+          }
         ]
       }
     ]
@@ -2392,73 +6743,213 @@
       {
         "day": 1,
         "lessons": [
-          "JEPANG",
-          "JEPANG",
-          "JEPANG",
-          "JEPANG",
-          "PKWU",
-          "PKWU",
-          "Sosiologi",
-          "B.INGGRIS",
-          "B.INGGRIS"
+          {
+            "lesson": "JEPANG",
+            "name": "Teti Desmayanti, SE"
+          },
+          {
+            "lesson": "JEPANG",
+            "name": "Teti Desmayanti, SE"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          },
+          {
+            "lesson": "PKN",
+            "name": "Dra. Sulistini, M.Pd"
+          }
         ]
       },
       {
         "day": 2,
         "lessons": [
-          "SUNDA",
-          "SUNDA",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "B.INGGRIS",
-          "PENJAS",
-          "PENJAS",
-          "PENJAS",
-          "BK"
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "SEJARAH",
+            "name": "Drs. Agus Martono"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "B.INDO",
+            "name": "Rahmat Syukran, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "PENJAS",
+            "name": "Andi Rustandi, S.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          },
+          {
+            "lesson": "PAI",
+            "name": "Nurita, S.Pdi, M.Pd"
+          }
         ]
       },
       {
         "day": 3,
         "lessons": [
-          "B. INDO",
-          "B. INDO",
-          "B. INDO",
-          "B. INDO",
-          "MTK",
-          "MTK",
-          "SEJARAH",
-          "SEJARAH",
-          "PKN",
-          "PKN"
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Adrianus Dami S.Pd"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "SENI",
+            "name": "Na.Irnatiqoh, S,Sn, M,Si"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          }
         ]
       },
       {
         "day": 4,
         "lessons": [
-          "SENI",
-          "SENI",
-          "B.INDO",
-          "B.INDO",
-          "B.INDO",
-          "B.INDO",
-          "Sosiologi",
-          "Sosiologi",
-          "Sosiologi"
+          {
+            "lesson": "JEPANG",
+            "name": "Teti Desmayanti, SE"
+          },
+          {
+            "lesson": "JEPANG",
+            "name": "Teti Desmayanti, SE"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "B.INGGRIS",
+            "name": "Apri Lidarti, S.Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "EKO",
+            "name": "Dra. Komariah MM,Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          },
+          {
+            "lesson": "SUNDA",
+            "name": "Arimbi Nurul Hikmah, S.Pd"
+          }
         ]
       },
       {
         "day": 5,
         "lessons": [
-          "EKO",
-          "EKO",
-          "EKO",
-          "EKO",
-          "MTK",
-          "MTK",
-          "PAI",
-          "PAI",
-          "PAI"
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "SOSIOLOGI",
+            "name": "Muhamamad Solihin, S.Pd"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "PKWU",
+            "name": "H. Nurhidayatullah, M.Ag"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "B. INDO",
+            "name": "Rita Evawaty, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "MTK",
+            "name": "Nurlaeli, S.Pd"
+          },
+          {
+            "lesson": "BK"
+          }
         ]
       }
     ]

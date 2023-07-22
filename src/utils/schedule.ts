@@ -18,7 +18,14 @@ export const JadwalJson = z
 
           // Array yang berisikan string jadwal
           // pelajaran siswa pada hari spesifik
-          lessons: z.array(z.string()).nonempty(),
+          lessons: z
+            .array(
+              z.object({
+                lesson: z.string(),
+                name: z.string().optional(),
+              })
+            )
+            .nonempty(),
         })
       ),
     })

@@ -64,22 +64,27 @@ const { className, schedules } = Astro.props as IIndividualClass;
               {timeAlloc
                 .find((time) => time.currentDay === schedule.day)!
                 .alloc.map((time) => (
-                  <tr class={`text-lato text-lg h-10 ${time.isBreak ? "bg-blue-300" : "even:bg-white odd:bg-slate-100"}`}>
+                  <tr class={`text-lato text-lg h-12 ${time.isBreak ? "bg-blue-300" : "even:bg-white odd:bg-slate-100"}`}>
                     {!time.isBreak ? (
                       <td class="pl-3">{time.JAM}</td>
-                      <td class="text-center">
-                        {schedule.lessons[time.JAM! - 1] ?? ""}
-                        {schedule.lessons[time.JAM! - 1] === "SUNDA" ? (
-                          <>
-                            {"  "}
-                            <small>
-                              (Jangan Lupa Totopong dan Kamus!)
-                            </small>{" "}
-                          </>
-                        ) : null}
+                      <td class="text-center py-3 flex flex-col">
+                        <p>
+                          <span class="font-semibold">{schedule.lessons[time.JAM! - 1].lesson ?? ""}</span>
+                          {schedule.lessons[time.JAM! - 1].lesson === "SUNDA" && (
+                            <>
+                              {"  "}
+                              <small>
+                                (Jangan Lupa Totopong dan Kamus!)
+                              </small>{" "}
+                            </>
+                          )}
+                        </p>
+                        {schedule.lessons[time.JAM! - 1].name && (
+                          <p>{schedule.lessons[time.JAM! - 1].name}</p>
+                        )}
                       </td>
                     ) : (
-                      <td colspan="2" class="text-center">ISTIRAHAT</td>
+                      <td colspan="2" class="text-center font-semibold">ISTIRAHAT</td>
                     )}
                     <td class="pr-3 text-end">{time.WAKTU.join(" - ")}</td>
                   </tr>

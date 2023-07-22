@@ -23,7 +23,6 @@ export const ClassNavigator = ({ children, currentClass, classList }: Props) => 
                     <select className="min-w-[5.2em] min-h-[2.2em] border rounded-md" value={currentClass} onChange={(e) => {
                         document.location = `/skola/schedule/${e.target.value}`
                     }}>
-                        <option value="">Pilih kelas</option>
                         {classList.map(className => <option key={className} value={className}>{className}</option>)}
                     </select>
                     <button className="p-[0.3em] bg-white border rounded-md" onClick={() => {
