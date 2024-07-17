@@ -82,7 +82,6 @@ export const getDay = (day: number) => {
       return "KAMIS";
     case 5:
       return "JUM'AT";
-      break;
     case 7:
       return "SABTU";
     case 8:
