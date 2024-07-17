@@ -1,7 +1,7 @@
 ---
-import { Icon } from "astro-icon";
+import { Icon } from "astro-icon/components";
 
-import { Image } from "@astrojs/image/components";
+import { Image } from "astro:assets";
 import { Navbar } from "@components/HomeNavbar";
 
 import Layout from "@layouts/Layout.astro";
@@ -110,7 +110,6 @@ const allCard = [
           format={"webp"}
           class="penjelasan-image"
           alt="Gambar yang berisi penjelasan makna dari warna logo ekstrakurikuler KIR."
-          aspectRatio="16:9"
           width={920}
         />
       </div>
@@ -171,61 +170,13 @@ const allCard = [
         class="grid grid-cols-1 justify-between sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8"
       >
         <div
-          class="border rounded flex flex-col justify-center items-center p-5 text-gray-50 bg-[#673ab7]"
-        >
-          <div
-            class="flex justify-center gap-2 flex-col sm:flex-col md:flex-row items-center"
-          >
-            <Icon name="form" class="!w-20 !h-20" />
-
-            <h1
-              class="font-poppins text-2xl text-center md:text-start font-semibold"
-            >
-              Form Pendaftaran
-            </h1>
-          </div>
-
-          <hr class="my-2 w-full" />
-
-          <h2 class="text-xl font-lato">Scan QR di bawah</h2>
-
-          <Image
-            src={QRDaftar}
-            alt="Gambar QR Code pendaftaran"
-            format={"webp"}
-            width={150}
-            height={150}
-            class="mt-3"
-          />
-
-          <h3 class="text-xl font-lato mt-2">atau</h3>
-          <a
-            class="bg-gray-50 mt-2 text-xl w-full text-center text-[#673ab7] rounded font-lato"
-            href="https://forms.gle/LG4eVkAP8taL2rT8A"
-            target="_blank"
-            rel="noopener noreferrer">Daftar Disini</a
-          >
-        </div>
-
-        <a
-          href="https://instagram.com/scio12_"
-          target="_blank"
-          class="border rounded flex flex-col items-center justify-center p-5 font-semibold text-gray-50 hover:text-[#ffd366] gap-6 bg-[#E1306C] font-poppins text-2xl"
-          rel="noopener noreferrer"
-        >
-          <Icon name="instagram-outline" class="!w-20 !h-20" />
-
-          @scio12_
-        </a>
-
-        <div
-          class="border rounded flex flex-col justify-between h-full p-5 text-gray-50 bg-[#075E54]"
+          class="border rounded flex flex-col justify-between p-5 text-gray-50 bg-[#075E54] md:h-80"
         >
           <div>
             <div
               class="flex justify-center flex-col sm:flex-col gap-2 md:flex-row items-center"
             >
-              <Icon name="whatsapp" class="!w-20 !h-20" />
+              <Icon name="whatsapp" class="!w-16 !h-16" />
 
               <h1
                 class="font-poppins text-2xl font-semibold text-center mt-2 sm:mt-2"
@@ -238,19 +189,64 @@ const allCard = [
           </div>
 
           <div class="text-center my-10 lg:my-0">
-            <h2 class="text-2xl font-lato font-bold">Kak Zalfa</h2>
-            <h2 class="text-2xl font-lato">+62 898-8150-183</h2>
+            <h2 class="text-2xl font-lato font-bold">Kak Nasya</h2>
+            <h2 class="text-2xl font-lato">+62 8810-2417-7774</h2>
           </div>
 
           <div>
             <a
               class="bg-gray-50 text-xl block w-full text-center text-[#075E54] rounded font-lato"
-              href="https://wa.me/628988150183"
+              href="https://wa.me/62881024177774"
               target="_blank"
               rel="noopener noreferrer">Chat</a
             >
           </div>
         </div>
+
+        <div
+          class="border rounded flex flex-col justify-between p-5 text-gray-50 bg-[#075E54] md:h-80"
+        >
+          <div>
+            <div
+              class="flex justify-center flex-col sm:flex-col gap-2 md:flex-row items-center"
+            >
+              <Icon name="whatsapp" class="!w-16 !h-16" />
+
+              <h1
+                class="font-poppins text-2xl font-semibold text-center mt-2 sm:mt-2"
+              >
+                Contact Person (WA)
+              </h1>
+            </div>
+
+            <hr class="mt-4 w-full" />
+          </div>
+
+          <div class="text-center my-10 lg:my-0">
+            <h2 class="text-2xl font-lato font-bold">Kak Zalika</h2>
+            <h2 class="text-2xl font-lato">+62 8586-1129-561</h2>
+          </div>
+
+          <div>
+            <a
+              class="bg-gray-50 text-xl block w-full text-center text-[#075E54] rounded font-lato"
+              href="https://wa.me/6285861129561"
+              target="_blank"
+              rel="noopener noreferrer">Chat</a
+            >
+          </div>
+        </div>
+
+        <a
+          href="https://instagram.com/scio12_"
+          target="_blank"
+          class="border rounded flex flex-col items-center justify-center p-5 font-semibold text-gray-50 hover:text-[#ffd366] gap-6 bg-[#E1306C] font-poppins text-2xl"
+          rel="noopener noreferrer"
+        >
+          <Icon name="instagram-outline" class="!w-20 !h-20" />
+
+          @scio12_
+        </a>
       </div>
     </section>
   </main>
