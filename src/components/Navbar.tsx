@@ -13,7 +13,7 @@ export const Navbar: React.FC<{ children: React.ReactNode, lists: ListProp[] }> 
 
     return (
         <nav
-            className="flex fixed top-0 flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg bg-white border-b border-solid z-10">
+            className="flex fixed top-0 flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg bg-white border-b border-solid border-zinc-200 z-10">
             <div className="h-[inherit]">
                 <a className="ml-2 h-[inherit] flex items-center font-play font-semibold text-xl"
                     href="/"

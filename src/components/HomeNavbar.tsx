@@ -39,7 +39,7 @@ export const Navbar: React.FC<{ children: React.ReactNode }> = ({
 
     return (
         <nav
-            className={`${isHidden ? "hidden" : "flex"} fixed top-0 flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg bg-white border-b border-solid z-10`}>
+            className={`${isHidden ? "opacity-0" : "opacity-100"} transition flex fixed top-0 flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg bg-white border-b border-solid border-zinc-200 z-10`}>
             <div className="h-[inherit]">
                 <button className="ml-2 h-[inherit] flex items-center font-play font-semibold text-xl"
                     onClick={(e) => {
@@ -67,9 +67,6 @@ export const Navbar: React.FC<{ children: React.ReactNode }> = ({
                 >
                     <li>
                         <a className="md:p-4 py-2 block hover:text-black" href="/blog">Blog</a>
-                    </li>
-                    <li>
-                        <a className="md:p-4 py-2 block hover:text-cyan-600" href="/skola">Pojok Sekolah</a>
                     </li>
                     {navItems.map(nav => (
                         <li key={nav.section}>

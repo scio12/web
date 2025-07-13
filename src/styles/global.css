@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-lato: "Lato", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-play: "Play", sans-serif;
+}
