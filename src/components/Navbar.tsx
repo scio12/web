@@ -20,7 +20,6 @@ export const Navbar: React.FC<{ children: React.ReactNode, lists: ListProp[] }> 
                 >
                     <span>SCI</span>
                     {children}
-                    <span className="ml-1">12</span>
                 </a>
             </div>
 

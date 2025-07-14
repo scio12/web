@@ -4,7 +4,8 @@ const navItems = [
     { display: "Apa itu KIR?", section: "apa-itu-kir", onHover: "hover:text-rose-600" },
     { display: "Lambang", section: "lambang-kami", onHover: "hover:text-green-600" },
     { display: "Divisi", section: "divisi", onHover: "hover:text-cyan-600" },
-    { display: "Kontak", section: "kontak", onHover: "hover:text-yellow-600" },
+    { display: "Aturan", section: "sistem-dan-aturan", onHover: "hover:text-yellow-600" },
+    { display: "Kontak", section: "kontak", onHover: "hover:text-zinc-800" },
 ];
 
 export const Navbar: React.FC<{ children: React.ReactNode }> = ({
@@ -49,7 +50,6 @@ export const Navbar: React.FC<{ children: React.ReactNode }> = ({
                 >
                     <span>SCI</span>
                     {children}
-                    <span className="ml-1">12</span>
                 </button>
             </div>
 
