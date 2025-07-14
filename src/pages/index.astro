@@ -6,34 +6,9 @@ import { Navbar } from "@components/HomeNavbar";
 
 import Layout from "@layouts/Layout.astro";
 
-import PenjelasanLogo from "@assets/penjelasan-logo.png";
+import logoAsli from "@assets/kir-logo-asli.jpg";
 import scioImage from "@assets/kir-transparent.png";
-import QRDaftar from "@assets/qr-daftar.png";
-
-import logoOlim from "@assets/logo-olim.png";
-import logoTeknik from "@assets/logo-teknik.png";
-import logoKti from "@assets/logo-kti.png";
-
-const allCard = [
-  {
-    heading: "Olimpiade",
-    image: logoOlim,
-    explanation:
-      "Siapkan dirimu untuk tantangan mengikuti kompetisi dengan bergabung dalam Divisi Olimpiade kami! Dapatkan pengalaman berharga dalam mengikuti lomba bergengsi dan raih prestasi yang akan menjadi kebanggaanmu. Buatlah portfolio unggulan yang akan membuka pintu kesuksesanmu di dunia akademik!",
-  },
-  {
-    heading: "Teknik",
-    image: logoTeknik,
-    explanation:
-      "Apakah kamu memiliki semangat eksperimen dan ingin menguji batasan kemampuanmu? Divisi Teknik adalah wadah bagi pemimpi dan penemu masa depan. Bergabunglah dengan kami dan temukan kesenangan menciptakan inovasi dan merasakan sensasi menemukan solusi bagi masalah-masalah nyata!",
-  },
-  {
-    heading: "Karya Tulis Ilmiah",
-    image: logoKti,
-    explanation:
-      "Ingin mengeksplorasi bidang ilmiah dan mengasah kemampuan menulismu? Divisi KTI adalah tempat yang tepat! Bergabunglah dengan kami untuk menggali pengetahuan, menyelami riset, dan menghasilkan karya ilmiah yang akan memukau dunia. Dengan KTI, tak ada batasan bagi imajinasimu!",
-  },
-];
+// import QRDaftar from "@assets/qr-daftar.png";
 ---
 
 <Layout
@@ -71,91 +46,112 @@ const allCard = [
     </section>
 
     <section
-      id="siapa-kami"
-      class="m-auto min-h-[160vh] px-6 pt-24 sm:px-14 sm:pt-28 md:px-16"
+      id="apa-itu-kir"
+      class="m-auto min-h-[65vh] px-6 pt-24 sm:px-14 sm:pt-28 md:px-16"
     >
       <h1
         class="font-bold dark:text-gray-50 font-poppins text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-8"
       >
-        Siapa Kami?
+        Apa itu KIR?
       </h1>
       <div
         class="font-light font-lato flex flex-wrap gap-10 text-xl md:flex-nowrap md:gap-18 lg:gap-12 lg:text-2xl leading-loose"
       >
-        <p>
-          KIR adalah singkatan dari Kelompok Ilmiah Remaja, ekstrakurikuler ini
-          bertujuan untuk mengembangkan bakat dan minat siswa khususnya dalam
-          bidang ilmiah dan mengikuti kompetisi atau perlombaan. Latar belakang
-          terbentuknya ekstrakurikuler ini karena belum ada organisasi yang
-          fokus dibidang akademik atau keilmiahan.
-        </p>
-        <p>
-          Tanggal dibentuk ekstrakurikuler KIR ini pada tanggal 16 Juli 2016,
-          diresmikan pada 21 Juli 2016. SCIO 12 diambil dari bahasa latin{" "}
-          <i>SCIO</i> yang memiliki arti <i>Aku Tahu</i>. Empat lingkaran
-          sebagai pengganti huruf "O" dengan masing-masing warna kuning, biru,
-          merah, dan hijau melambangkan setiap bidang studi.
+        <p class="text-justify">
+          KIR atau Kelompok Ilmiah Remaja adalah sebuah ekstrakurikuler yang
+          dibentuk pada 16 juli 2016 dengan tujuan sebagai wadah penyaluran
+          hobi, minat, dan bakat para siswa secara positif yang dapat mengasah
+          kemampuan, daya kreativitas, jiwa sportivitas, dan meningkatkan rasa
+          percaya diri. Reguler KIR dilaksanakan pada hari <u>rabu</u> disetiap pekannya.
         </p>
       </div>
-      <div class="font-light font-lato text-xl mt-6 lg:text-2xl leading-loose">
-        <p>
-          Untuk kegiatan reguler rutin, biasa diadakan setiap hari <u
-            class="font-bold">Rabu</u
-          >!
-        </p>
-      </div>
-      <div class="w-full flex justify-center mt-6">
-        <Image
-          src={PenjelasanLogo}
-          format={"webp"}
-          class="penjelasan-image"
-          alt="Gambar yang berisi penjelasan makna dari warna logo ekstrakurikuler KIR."
-          width={920}
-        />
+    </section>
+
+    <section
+      id="lambang-kami"
+      class="m-auto min-h-[65vh] px-6 pt-20 sm:px-14 sm:pt-20 md:px-16 lg:mt-24"
+    >
+      <h1
+        class="font-bold dark:text-gray-50 text-center font-poppins text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-8"
+      >
+        Makna Lambang Kami
+      </h1>
+      <div
+        class="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20 pt-4"
+      >
+        <div>
+          <Image
+            src={logoAsli}
+            format={"webp"}
+            class="border rounded-full border-zinc-500/45 shadow inset-20"
+            alt="Gambar yang berisi penjelasan makna dari warna logo ekstrakurikuler KIR."
+            width={225}
+          />
+        </div>
+        <div class="pl-2 md:pl-0">
+          <ul
+            class="list-disc *:text-justify *:text-xl *:lg:text-2xl *:leading-loose space-y-1.5 md:space-y-0"
+          >
+            <li>
+              <b>Teks “SCIO”</b> berasal dari bahasa yunani yang berarti ”ILMU”.
+            </li>
+            <li>
+              <b>4 Lingkaran</b>, melambangkan ada 4 Divisi di KIR SMA Negeri 12
+              Bekasi.
+            </li>
+            <li>
+              <b>Warna dasar putih</b>, melambangkan kesucian hati dan
+              keikhlasan.
+            </li>
+            <li><b>Warna biru</b>, warna langit dan lautan.</li>
+            <li><b>Warna merah</b>, menunjukkan perasaan berani.</li>
+            <li>
+              <b>Warna kuning</b>, melambangkan bahwa KIR akan terus bersinar.
+            </li>
+            <li>
+              <b>Warna hijau</b>, menunjukkan KIR selalu menanamkan
+              kekeluargaan.
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
 
     <section
       id="divisi"
-      class="m-auto min-h-[160vh] px-6 pt-20 sm:px-14 sm:pt-20 md:px-16"
+      class="m-auto min-h-[65vh] px-6 pt-20 sm:px-14 sm:pt-20 md:px-16 lg:mt-24"
     >
       <h1
-        class="font-bold text-center dark:text-gray-50 font-poppins text-4xl sm:text-4xl md:text-5xl lg:text-6xl mb-8"
+        class="font-bold dark:text-gray-50 text-center font-poppins text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-8"
       >
         Divisi
       </h1>
-      <div
-        class="grid grid-cols-1 gap-10 md:gap-5 md:grid-cols-2 lg:grid-cols-3 items-center lg:mt-28"
-      >
-        {
-          allCard.map((card) => (
-            <div class="border rounded flex flex-wrap justify-center min-h-full">
-              <Image
-                src={card.image}
-                alt={`Logo dari divisi ${card.heading}`}
-                format={"webp"}
-                width={210}
-                height={210}
-                class="mt-6 lg:mt-0 lg:transform lg:-translate-y-20"
-              />
-              <div class="p-6 lg:transform lg:-translate-y-20">
-                <h2 class="font-bold font-poppins text-center text-xl sm:text-xl md:text-2xl lg:text-3xl mb-5">
-                  {card.heading}
-                </h2>
-
-                <p class="font-light font-lato text-lg lg:text-xl leading-loose">
-                  {card.explanation}
-                </p>
-              </div>
-            </div>
-          ))
-        }
+      <div class="flex items-center justify-center pl-2.5 md:pl-0">
+        <ol
+          class="list-decimal *:text-justify *:text-xl *:lg:text-2xl *:leading-loose space-y-2"
+        >
+          <li>
+            <b>DIVISI OLIMPIADE</b>: berfokus pada kegiatan belajar, menguji
+            kemampuan dan mengikuti olimpiade.
+          </li>
+          <li>
+            <b>DIVISI TEKNIK</b>: berfokus pada experiment2 ilmiah yang menarik
+            dan perlombaan.
+          </li>
+          <li>
+            <b>DIVISI KTI</b> : berfokus pada pembuatan karya tulis ilmiah.
+          </li>
+          <li>
+            <b>DIVISI HUMAS</b> : berfokus pada penyebaran serta pembuatan informasi
+            dan wawasan mengenai science.
+          </li>
+        </ol>
       </div>
     </section>
 
     <section
       id="kontak"
-      class="m-auto min-h-[120vh] px-6 pt-24 sm:px-14 sm:pt-20 md:px-16"
+      class="m-auto min-h-[120vh] px-6 pt-24 sm:px-14 sm:pt-20 md:px-16 lg:mt-24"
     >
       <h1
         class="font-bold dark:text-gray-50 font-poppins text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-8"
@@ -240,7 +236,7 @@ const allCard = [
         <a
           href="https://instagram.com/scio12_"
           target="_blank"
-          class="border rounded flex flex-col items-center justify-center p-5 font-semibold text-gray-50 hover:text-[#ffd366] gap-6 bg-[#E1306C] font-poppins text-2xl"
+          class="transition border rounded flex flex-col items-center justify-center p-5 font-semibold text-gray-50 hover:text-[#ffd366] gap-6 bg-[#E1306C] font-poppins text-2xl"
           rel="noopener noreferrer"
         >
           <Icon name="instagram-outline" class="!w-20 !h-20" />
@@ -251,41 +247,43 @@ const allCard = [
     </section>
   </main>
 
-  <footer
-    class="flex flex-wrap items-center justify-between px-4 border-t border-solid border-zinc-200 h-14 w-full mt-10"
-  >
-    <p
-      class="ml-2 h-[inherit] flex items-center font-play font-semibold text-xl"
-    >
-      <span>SCI</span>
-      <Image
-        class="ml-[2px]"
-        width={32}
-        height={32}
-        src={scioImage}
-        format={"webp"}
-        alt="Gambar logo scio 12"
-      />
-      <span class="ml-1">12</span>
-    </p>
-    <div class="flex gap-3">
-      <a
-        href="https://instagram.com/scio12_"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Halaman instagram KIR SMAN 12 Bekasi"
-      >
-        <Icon name="instagram" />
-      </a>
+  <footer class="border-t border-solid border-zinc-200 h-full w-full mt-10">
+    <div class="p-3 px-5 flex items-center justify-between">
+      <div class="space-y-0.5">
+        <p class="flex items-center font-lato font-semibold text-xl">
+          Kelompok Ilmiah Remaja
+        </p>
+        <a
+          href="https://www.sman12-bekasi.sch.id/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="font-poppins group text-base transition duration-300"
+          >SMAN 12 Bekasi
+          <span
+            class="block max-w-0 group-hover:max-w-[56%] transition-all duration-500 h-0.5 bg-zinc-500"
+          ></span>
+        </a>
+      </div>
 
-      <a
-        href="https://github.com/scio12"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Halaman Github KIR SMAN 12 Bekasi"
-      >
-        <Icon name="github" />
-      </a>
+      <div class="flex gap-3">
+        <a
+          href="https://instagram.com/scio12_"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Halaman instagram KIR SMAN 12 Bekasi"
+        >
+          <Icon name="instagram" />
+        </a>
+
+        <a
+          href="https://github.com/scio12"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Halaman Github KIR SMAN 12 Bekasi"
+        >
+          <Icon name="github" />
+        </a>
+      </div>
     </div>
   </footer>
 
