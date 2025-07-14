@@ -5,7 +5,7 @@ const navItems = [
     { display: "Lambang", section: "lambang-kami", onHover: "hover:text-green-600" },
     { display: "Divisi", section: "divisi", onHover: "hover:text-cyan-600" },
     { display: "Aturan", section: "sistem-dan-aturan", onHover: "hover:text-yellow-600" },
-    { display: "Kontak", section: "kontak", onHover: "hover:text-zinc-800" },
+    { display: "Daftar", section: "daftar", onHover: "hover:text-zinc-800" },
 ];
 
 export const Navbar: React.FC<{ children: React.ReactNode }> = ({

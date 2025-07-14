@@ -7,6 +7,7 @@ import { Navbar } from "@components/HomeNavbar";
 import Layout from "@layouts/Layout.astro";
 
 import logoAsli from "@assets/kir-logo-asli.jpg";
+import qrDaftar from "@assets/qr-daftar.png";
 import scioImage from "@assets/kir-transparent.png";
 ---
 
@@ -190,13 +191,13 @@ import scioImage from "@assets/kir-transparent.png";
     </section>
 
     <section
-      id="kontak"
+      id="daftar"
       class="m-auto min-h-[120vh] px-6 pt-24 sm:px-14 sm:pt-20 md:px-16 lg:mt-24"
     >
       <h1
         class="font-bold dark:text-gray-50 font-poppins text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-8"
       >
-        Kontak
+        Ayo Daftar!
       </h1>
       <p class="font-lato font-light text-2xl">
         Ingin bergabung, atau masih ada pertanyaan? Cek beberapa <i>resource</i>
@@ -205,42 +206,50 @@ import scioImage from "@assets/kir-transparent.png";
       <div
         class="grid grid-cols-1 justify-between sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8"
       >
+        <!-- Form Pendaftaran -->
         <div
-          class="border rounded flex flex-col justify-between p-5 text-gray-50 bg-[#075E54] md:h-80"
+          class="border rounded-xl flex flex-col justify-center items-center p-5 text-gray-50 bg-[#673ab7]"
         >
-          <div>
-            <div
-              class="flex justify-center flex-col sm:flex-col gap-2 md:flex-row items-center"
+          <div
+            class="flex justify-center gap-2 flex-col sm:flex-col md:flex-row items-center"
+          >
+            <Icon name="form" class="!w-20 !h-20" />
+
+            <h1
+              class="font-poppins text-2xl text-center md:text-start font-semibold"
             >
-              <Icon name="whatsapp" class="!w-16 !h-16" />
-
-              <h1
-                class="font-poppins text-2xl font-semibold text-center mt-2 sm:mt-2"
-              >
-                Contact Person (WA)
-              </h1>
-            </div>
-
-            <hr class="mt-4 w-full" />
+              Form Pendaftaran
+            </h1>
           </div>
 
-          <div class="text-center my-10 lg:my-0">
-            <h2 class="text-2xl font-lato font-bold">Kak Nasya</h2>
-            <h2 class="text-2xl font-lato">+62 8810-2417-7774</h2>
+          <hr class="my-2 w-full" />
+
+          <h2 class="text-xl font-lato">Scan QR di bawah</h2>
+
+          <div
+            class="p-2 rounded-xl bg-zinc-50 mt-3.5 flex items-center justify-center"
+          >
+            <Image
+              src={qrDaftar}
+              alt="Gambar QR Code pendaftaran"
+              format={"webp"}
+              width={150}
+              height={150}
+            />
           </div>
 
-          <div>
-            <a
-              class="bg-gray-50 text-xl block w-full text-center text-[#075E54] rounded font-lato"
-              href="https://wa.me/62881024177774"
-              target="_blank"
-              rel="noopener noreferrer">Chat</a
-            >
-          </div>
+          <h3 class="text-xl font-lato mt-2">atau</h3>
+          <a
+            class="bg-gray-50 mt-2 text-xl w-full text-center text-[#673ab7] rounded font-lato"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScPIYkNNm13vw9HOj8kLkxSVX06kusxY42dWU21B4-N3kiz9w/viewform?usp=dialog"
+            target="_blank"
+            rel="noopener noreferrer">Daftar Disini</a
+          >
         </div>
 
+        <!-- Contact Person -->
         <div
-          class="border rounded flex flex-col justify-between p-5 text-gray-50 bg-[#075E54] md:h-80"
+          class="border rounded-xl flex flex-col justify-between p-5 text-gray-50 bg-[#075E54] md:h-80"
         >
           <div>
             <div
@@ -259,14 +268,14 @@ import scioImage from "@assets/kir-transparent.png";
           </div>
 
           <div class="text-center my-10 lg:my-0">
-            <h2 class="text-2xl font-lato font-bold">Kak Zalika</h2>
-            <h2 class="text-2xl font-lato">+62 8586-1129-561</h2>
+            <h2 class="text-2xl font-lato font-bold">Kak Naomi</h2>
+            <h2 class="text-2xl font-lato">+62 877-7266-9803</h2>
           </div>
 
           <div>
             <a
               class="bg-gray-50 text-xl block w-full text-center text-[#075E54] rounded font-lato"
-              href="https://wa.me/6285861129561"
+              href="https://wa.me/6287772669803"
               target="_blank"
               rel="noopener noreferrer">Chat</a
             >
@@ -276,7 +285,7 @@ import scioImage from "@assets/kir-transparent.png";
         <a
           href="https://instagram.com/scio12_"
           target="_blank"
-          class="transition border rounded flex flex-col items-center justify-center p-5 font-semibold text-gray-50 hover:text-[#ffd366] gap-6 bg-[#E1306C] font-poppins text-2xl"
+          class="transition border rounded-xl flex flex-col items-center justify-center p-5 font-semibold text-gray-50 hover:text-[#ffd366] gap-6 bg-[#E1306C] font-poppins text-2xl"
           rel="noopener noreferrer"
         >
           <Icon name="instagram-outline" class="!w-20 !h-20" />
