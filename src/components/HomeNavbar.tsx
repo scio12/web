@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
 
 const navItems = [
-    { display: "Siapa Kami?", section: "siapa-kami", onHover: "hover:text-green-500" },
-    { display: "Divisi", section: "divisi", onHover: "hover:text-yellow-400" },
-    { display: "Kontak", section: "kontak", onHover: "hover:text-red-500" },
+    { display: "Apa itu KIR?", section: "apa-itu-kir", onHover: "hover:text-rose-600" },
+    { display: "Lambang", section: "lambang-kami", onHover: "hover:text-green-600" },
+    { display: "Divisi", section: "divisi", onHover: "hover:text-cyan-600" },
+    { display: "Aturan", section: "sistem-dan-aturan", onHover: "hover:text-yellow-600" },
+    { display: "Daftar", section: "daftar", onHover: "hover:text-zinc-800" },
 ];
-
 
 export const Navbar: React.FC<{ children: React.ReactNode }> = ({
     children,
@@ -39,7 +40,7 @@ export const Navbar: React.FC<{ children: React.ReactNode }> = ({
 
     return (
         <nav
-            className={`${isHidden ? "hidden" : "flex"} fixed top-0 flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg bg-white border-b border-solid z-10`}>
+            className={`${isHidden ? "opacity-0" : "opacity-100"} transition flex fixed top-0 flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg bg-white border-b border-solid border-zinc-200 z-10`}>
             <div className="h-[inherit]">
                 <button className="ml-2 h-[inherit] flex items-center font-play font-semibold text-xl"
                     onClick={(e) => {
@@ -49,7 +50,6 @@ export const Navbar: React.FC<{ children: React.ReactNode }> = ({
                 >
                     <span>SCI</span>
                     {children}
-                    <span className="ml-1">12</span>
                 </button>
             </div>
 
@@ -65,12 +65,6 @@ export const Navbar: React.FC<{ children: React.ReactNode }> = ({
                 <ul
                     className="pt-4 text-base text-gray-500 md:flex md:justify-between md:pt-0"
                 >
-                    <li>
-                        <a className="md:p-4 py-2 block hover:text-black" href="/blog">Blog</a>
-                    </li>
-                    <li>
-                        <a className="md:p-4 py-2 block hover:text-cyan-600" href="/skola">Pojok Sekolah</a>
-                    </li>
                     {navItems.map(nav => (
                         <li key={nav.section}>
                             <button onClick={() => {
@@ -86,6 +80,9 @@ export const Navbar: React.FC<{ children: React.ReactNode }> = ({
                             }} className={`md:p-4 py-2 block ${nav.onHover}`}>{nav.display}</button>
                         </li>
                     ))}
+                    <li>
+                        <a className="md:p-4 py-2 block hover:text-black" href="/blog">Blog</a>
+                    </li>
                 </ul>
             </div>
         </nav>
