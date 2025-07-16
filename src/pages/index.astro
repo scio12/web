@@ -7,8 +7,42 @@ import { Navbar } from "@components/HomeNavbar";
 import Layout from "@layouts/Layout.astro";
 
 import logoAsli from "@assets/kir-logo-asli.jpg";
-import qrDaftar from "@assets/qr-daftar.png";
 import scioImage from "@assets/kir-transparent.png";
+import qrDaftar from "@assets/qr-daftar.png";
+
+import divisiOlimpiade from "@assets/div-olimpiade.jpg";
+import divisiTeknik from "@assets/div-teknik.jpg";
+import divisiKti from "@assets/div-kti.jpg";
+import divisiHumas from "@assets/div-humas.jpg";
+
+const penjelasanDivisi = [
+  {
+    image: divisiOlimpiade,
+    label: "Olimpiade",
+    explanation:
+      "Divisi ini berfokus dalam mempersiapkan anggota untuk berkompetisi dalam ajang-ajang olimpiade. Untuk pemantauan kemajuan tiap anggota, kami akan berkolaborasi dengan guru pembimbing. Jadi, untuk kalian yang tertarik menambahkan pengalaman dan prestasi bisa bergabung dengan divisi ini ya!",
+  },
+  {
+    image: divisiTeknik,
+    label: "Teknik",
+    explanation:
+      "Kamu tipikal orang yang belajar dengan mencoba hal baru dengan beraktivitas secara langsung? Divisi ini cocok untuk kamu! Divisi teknik berfokus pada eksplorasi dan penerapan teknologi seperti robotika ataupun eksperimen-eksperimen sains yang menarik. Cocok untuk kamu yang suka mencoba pengalaman baru!",
+  },
+  {
+    image: divisiKti,
+    label: "KTI (Karya Tulis Ilmiah)",
+    explanation:
+      "Pada divisi karya tulis ilmiah, kamu akan berfokus pada penelitian dimulai dari pemilihan topik penelitian, belajar metodologi penelitian, sampai penulisan karya tulis ilmiah. Tertarik menjadi peneliti muda? Bergabunglah bersama kami di Divisi KTI!",
+  },
+  {
+    image: divisiHumas,
+    label: "HUMAS",
+    explanation:
+      "Pada divisi ini kami banyak berhubungan dengan publik atau masyarakat yang lebih luas. Karena pada divisi ini kita akan mendokumentasikan kegiatan, membuat education content, dan lainnya!",
+  },
+];
+
+const isOdd = (n: number) => n % 2 !== 0;
 ---
 
 <Layout
@@ -126,220 +160,226 @@ import scioImage from "@assets/kir-transparent.png";
       >
         Divisi
       </h1>
-      <div class="flex items-center justify-center pl-2.5 md:pl-0">
-        <ol
-          class="list-decimal *:text-justify *:text-xl *:lg:text-2xl *:leading-loose space-y-2"
-        >
-          <li>
-            <b>DIVISI OLIMPIADE</b>: berfokus pada kegiatan belajar, menguji
-            kemampuan dan mengikuti olimpiade.
-          </li>
-          <li>
-            <b>DIVISI TEKNIK</b>: berfokus pada experiment2 ilmiah yang menarik
-            dan perlombaan.
-          </li>
-          <li>
-            <b>DIVISI KTI</b> : berfokus pada pembuatan karya tulis ilmiah.
-          </li>
-          <li>
-            <b>DIVISI HUMAS</b> : berfokus pada penyebaran serta pembuatan informasi
-            dan wawasan mengenai science.
-          </li>
-        </ol>
-      </div>
-    </section>
 
-    <section
-      id="sistem-dan-aturan"
-      class="m-auto min-h-[65vh] px-6 pt-20 sm:px-14 sm:pt-20 md:px-16 lg:mt-24"
-    >
-      <h1
-        class="font-bold dark:text-gray-50 font-poppins text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-8"
-      >
-        Sistem dan Aturan
-      </h1>
-      <div class="pl-2 md:pl-0">
-        <ol
-          class="list-decimal *:text-justify *:font-poppins *:font-medium *:md:text-xl *:lg:text-2xl *:leading-loose space-y-3.5"
-        >
-          <li>
-            Semua anggota KIR <b>memilih divisi yang diinginkan</b>, namun tetap
-            mengikuti semua aktivitas yang disiapkan oleh divisi lain.
-          </li>
-          <li>
-            Sebagai contoh, pekan pertama di bulan februari diisi oleh divisi
-            teknik, kita akan melakukan eksperimen yang dilaksanakan dan semua
-            anggota KIR harus mengikuti regulernya. Divisi teknik-lah yang
-            mempersiapkan kegiatannya. Kemudian dilanjut pada pekan kedua yang
-            akan diisi oleh divisi olimpiade, dst.
-          </li>
-          <li>
-            Terkait perizinan untuk tidak mengikuti pertemuan reguler,
-            diharapkan
-            <b>tetap berkabar</b> kepada ketua atau wakil divisi yang disertai <b
-              >dengan bukti</b
-            > berupa foto maupun video.
-          </li>
-          <li>
-            Jika tidak hadir dalam pertemuan reguler selama <b
-              >3x berturut-turut</b
-            > dan <b>tanpa disertai izin yang jelas</b>, maka wajib
-            menandatangani perjanjian keikutsertaan.
-          </li>
-        </ol>
-      </div>
-    </section>
-
-    <section
-      id="daftar"
-      class="m-auto min-h-[120vh] px-6 pt-24 sm:px-14 sm:pt-20 md:px-16 lg:mt-24"
-    >
-      <h1
-        class="font-bold dark:text-gray-50 font-poppins text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-8"
-      >
-        Ayo Daftar!
-      </h1>
-      <p class="font-lato font-light text-2xl">
-        Ingin bergabung, atau masih ada pertanyaan? Cek beberapa <i>resource</i>
-        dibawah ini yaa!
-      </p>
-      <div
-        class="grid grid-cols-1 justify-between sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8"
-      >
-        <!-- Form Pendaftaran -->
-        <div
-          class="border rounded-xl flex flex-col justify-center items-center p-5 text-gray-50 bg-[#673ab7]"
-        >
-          <div
-            class="flex justify-center gap-2 flex-col sm:flex-col md:flex-row items-center"
-          >
-            <Icon name="form" class="!w-20 !h-20" />
-
-            <h1
-              class="font-poppins text-2xl text-center md:text-start font-semibold"
-            >
-              Form Pendaftaran
-            </h1>
-          </div>
-
-          <hr class="my-2 w-full" />
-
-          <h2 class="text-xl font-lato">Scan QR di bawah</h2>
-
-          <div
-            class="p-2 rounded-xl bg-zinc-50 mt-3.5 flex items-center justify-center"
-          >
-            <Image
-              src={qrDaftar}
-              alt="Gambar QR Code pendaftaran"
-              format={"webp"}
-              width={150}
-              height={150}
-            />
-          </div>
-
-          <h3 class="text-xl font-lato mt-2">atau</h3>
-          <a
-            class="bg-gray-50 mt-2 text-xl w-full text-center text-[#673ab7] rounded font-lato"
-            href="https://docs.google.com/forms/d/e/1FAIpQLScPIYkNNm13vw9HOj8kLkxSVX06kusxY42dWU21B4-N3kiz9w/viewform?usp=dialog"
-            target="_blank"
-            rel="noopener noreferrer">Daftar Disini</a
-          >
-        </div>
-
-        <!-- Contact Person -->
-        <div
-          class="border rounded-xl flex flex-col justify-between p-5 text-gray-50 bg-[#075E54] md:h-80"
-        >
-          <div>
+      <div class="grid grid-cols-1">
+        {
+          penjelasanDivisi.map((divisi, idx) => (
             <div
-              class="flex justify-center flex-col sm:flex-col gap-2 md:flex-row items-center"
+              class={`flex flex-col gap-5 md:gap-8 ${isOdd(idx + 1) ? "md:flex-row" : "md:flex-row-reverse"} justify-evenly py-8 md:py-10`}
             >
-              <Icon name="whatsapp" class="!w-16 !h-16" />
-
-              <h1
-                class="font-poppins text-2xl font-semibold text-center mt-2 sm:mt-2"
-              >
-                Contact Person (WA)
-              </h1>
+              <div class="flex items-center justify-center">
+                <Image
+                  src={divisi.image}
+                  alt={`Gambar divisi ${divisi.label}`}
+                  format={"webp"}
+                  class="w-3xs md:w-2xl lg:w-6xl border rounded-4xl border-zinc-500/50"
+                  width={350}
+                />
+              </div>
+              <div class="flex flex-col items-center md:items-start justify-center">
+                <h2 class="font-bold dark:text-gray-50 text-start md:text-center text-xl md:text-3xl font-poppins mb-4">
+                  Divisi {divisi.label}
+                </h2>
+                <p class="font-lato text-lg md:text-xl lg:text-2xl leading-loose text-justify">
+                  {divisi.explanation}
+                </p>
+              </div>
             </div>
-
-            <hr class="mt-4 w-full" />
-          </div>
-
-          <div class="text-center my-10 lg:my-0">
-            <h2 class="text-2xl font-lato font-bold">Kak Naomi</h2>
-            <h2 class="text-2xl font-lato">+62 877-7266-9803</h2>
-          </div>
-
-          <div>
-            <a
-              class="bg-gray-50 text-xl block w-full text-center text-[#075E54] rounded font-lato"
-              href="https://wa.me/6287772669803"
-              target="_blank"
-              rel="noopener noreferrer">Chat</a
-            >
-          </div>
-        </div>
-
-        <a
-          href="https://instagram.com/scio12_"
-          target="_blank"
-          class="transition border rounded-xl flex flex-col items-center justify-center p-5 font-semibold text-gray-50 hover:text-[#ffd366] gap-6 bg-[#E1306C] font-poppins text-2xl"
-          rel="noopener noreferrer"
-        >
-          <Icon name="instagram-outline" class="!w-20 !h-20" />
-
-          @scio12_
-        </a>
+          ))
+        }
       </div>
     </section>
   </main>
 
-  <footer class="border-t border-solid border-zinc-200 h-full w-full mt-10">
-    <div class="p-3 px-5 flex items-center justify-between">
-      <div class="space-y-0.5">
-        <p class="flex items-center font-lato font-semibold text-xl">
-          Kelompok Ilmiah Remaja
-        </p>
-        <a
-          href="https://www.sman12-bekasi.sch.id/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="font-poppins group text-base transition duration-300"
-          >SMAN 12 Bekasi
-          <span
-            class="block max-w-0 group-hover:max-w-[56%] transition-all duration-500 h-0.5 bg-zinc-500"
-          ></span>
-        </a>
-      </div>
-
-      <div class="flex gap-3">
-        <a
-          href="https://instagram.com/scio12_"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Halaman instagram KIR SMAN 12 Bekasi"
-        >
-          <Icon name="instagram" />
-        </a>
-
-        <a
-          href="https://github.com/scio12"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Halaman Github KIR SMAN 12 Bekasi"
-        >
-          <Icon name="github" />
-        </a>
-      </div>
+  <section
+    id="sistem-dan-aturan"
+    class="m-auto min-h-[65vh] px-6 pt-20 sm:px-14 sm:pt-20 md:px-16 lg:mt-24"
+  >
+    <h1
+      class="font-bold dark:text-gray-50 font-poppins text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-8"
+    >
+      Sistem dan Aturan
+    </h1>
+    <div class="pl-2 md:pl-0">
+      <ol
+        class="list-decimal *:text-justify *:font-poppins *:font-medium *:md:text-xl *:lg:text-2xl *:leading-loose space-y-3.5"
+      >
+        <li>
+          Semua anggota KIR <b>memilih divisi yang diinginkan</b>, namun tetap
+          mengikuti semua aktivitas yang disiapkan oleh divisi lain.
+        </li>
+        <li>
+          Sebagai contoh, pekan pertama di bulan februari diisi oleh divisi
+          teknik, kita akan melakukan eksperimen yang dilaksanakan dan semua
+          anggota KIR harus mengikuti regulernya. Divisi teknik-lah yang
+          mempersiapkan kegiatannya. Kemudian dilanjut pada pekan kedua yang
+          akan diisi oleh divisi olimpiade, dst.
+        </li>
+        <li>
+          Terkait perizinan untuk tidak mengikuti pertemuan reguler, diharapkan
+          <b>tetap berkabar</b> kepada ketua atau wakil divisi yang disertai <b
+            >dengan bukti</b
+          > berupa foto maupun video.
+        </li>
+        <li>
+          Jika tidak hadir dalam pertemuan reguler selama <b
+            >3x berturut-turut</b
+          > dan <b>tanpa disertai izin yang jelas</b>, maka wajib menandatangani
+          perjanjian keikutsertaan.
+        </li>
+      </ol>
     </div>
-  </footer>
+  </section>
 
-  <style lang="css">
-    [astro-icon] {
-      width: 3em;
-      height: 3em;
-    }
-  </style>
+  <section
+    id="daftar"
+    class="m-auto min-h-[120vh] px-6 pt-24 sm:px-14 sm:pt-20 md:px-16 lg:mt-24"
+  >
+    <h1
+      class="font-bold dark:text-gray-50 font-poppins text-3xl sm:text-3xl md:text-4xl lg:text-5xl mb-8"
+    >
+      Ayo Daftar!
+    </h1>
+    <p class="font-lato font-light text-2xl">
+      Ingin bergabung, atau masih ada pertanyaan? Cek beberapa <i>resource</i>
+      dibawah ini yaa!
+    </p>
+    <div
+      class="grid grid-cols-1 justify-between sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8"
+    >
+      <!-- Form Pendaftaran -->
+      <div
+        class="border rounded-xl flex flex-col justify-center items-center p-5 text-gray-50 bg-[#673ab7]"
+      >
+        <div
+          class="flex justify-center gap-2 flex-col sm:flex-col md:flex-row items-center"
+        >
+          <Icon name="form" class="!w-20 !h-20" />
+
+          <h1
+            class="font-poppins text-2xl text-center md:text-start font-semibold"
+          >
+            Form Pendaftaran
+          </h1>
+        </div>
+
+        <hr class="my-2 w-full" />
+
+        <h2 class="text-xl font-lato">Scan QR di bawah</h2>
+
+        <div
+          class="p-2 rounded-xl bg-zinc-50 mt-3.5 flex items-center justify-center"
+        >
+          <Image
+            src={qrDaftar}
+            alt="Gambar QR Code pendaftaran"
+            format={"webp"}
+            width={150}
+            height={150}
+          />
+        </div>
+
+        <h3 class="text-xl font-lato mt-2">atau</h3>
+        <a
+          class="bg-gray-50 mt-2 text-xl w-full text-center text-[#673ab7] rounded font-lato"
+          href="https://docs.google.com/forms/d/e/1FAIpQLScPIYkNNm13vw9HOj8kLkxSVX06kusxY42dWU21B4-N3kiz9w/viewform?usp=dialog"
+          target="_blank"
+          rel="noopener noreferrer">Daftar Disini</a
+        >
+      </div>
+
+      <!-- Contact Person -->
+      <div
+        class="border rounded-xl flex flex-col justify-between p-5 text-gray-50 bg-[#075E54] md:h-80"
+      >
+        <div>
+          <div
+            class="flex justify-center flex-col sm:flex-col gap-2 md:flex-row items-center"
+          >
+            <Icon name="whatsapp" class="!w-16 !h-16" />
+
+            <h1
+              class="font-poppins text-2xl font-semibold text-center mt-2 sm:mt-2"
+            >
+              Contact Person (WA)
+            </h1>
+          </div>
+
+          <hr class="mt-4 w-full" />
+        </div>
+
+        <div class="text-center my-10 lg:my-0">
+          <h2 class="text-2xl font-lato font-bold">Kak Naomi</h2>
+          <h2 class="text-2xl font-lato">+62 877-7266-9803</h2>
+        </div>
+
+        <div>
+          <a
+            class="bg-gray-50 text-xl block w-full text-center text-[#075E54] rounded font-lato"
+            href="https://wa.me/6287772669803"
+            target="_blank"
+            rel="noopener noreferrer">Chat</a
+          >
+        </div>
+      </div>
+
+      <a
+        href="https://instagram.com/scio12_"
+        target="_blank"
+        class="transition border rounded-xl flex flex-col items-center justify-center p-5 font-semibold text-gray-50 hover:text-[#ffd366] gap-6 bg-[#E1306C] font-poppins text-2xl"
+        rel="noopener noreferrer"
+      >
+        <Icon name="instagram-outline" class="!w-20 !h-20" />
+
+        @scio12_
+      </a>
+    </div>
+  </section>
 </Layout>
+
+<footer class="border-t border-solid border-zinc-200 h-full w-full mt-10">
+  <div class="p-3 px-5 flex items-center justify-between">
+    <div class="space-y-0.5">
+      <p class="flex items-center font-lato font-semibold text-xl">
+        Kelompok Ilmiah Remaja
+      </p>
+      <a
+        href="https://www.sman12-bekasi.sch.id/"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="font-poppins group text-base transition duration-300"
+        >SMAN 12 Bekasi
+        <span
+          class="block max-w-0 group-hover:max-w-[56%] transition-all duration-500 h-0.5 bg-zinc-500"
+        ></span>
+      </a>
+    </div>
+
+    <div class="flex gap-3">
+      <a
+        href="https://instagram.com/scio12_"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Halaman instagram KIR SMAN 12 Bekasi"
+      >
+        <Icon name="instagram" />
+      </a>
+
+      <a
+        href="https://github.com/scio12"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Halaman Github KIR SMAN 12 Bekasi"
+      >
+        <Icon name="github" />
+      </a>
+    </div>
+  </div>
+</footer>
+
+<style lang="css">
+  [astro-icon] {
+    width: 3em;
+    height: 3em;
+  }
+</style>
