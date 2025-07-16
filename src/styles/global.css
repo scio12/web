@@ -11,3 +11,9 @@
 body {
   @apply bg-stone-50/15;
 }
+
+p,
+h1,
+h2 {
+  @apply text-shadow-md;
+}
