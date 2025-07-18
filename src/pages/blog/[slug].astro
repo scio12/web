@@ -1,0 +1,64 @@
+---
+import Layout from "@/layouts/Layout.astro";
+
+import { Navbar } from "@/components/Navbar";
+import { Image } from "astro:assets";
+
+import scioImage from "@/assets/kir-transparent.png";
+
+// import luxon from "luxon";
+
+import { contentfulClient } from "@/lib/contentful";
+import type { BlogPost } from "@/lib/contentful";
+
+export async function getStaticPaths() {
+  const entries = await contentfulClient.getEntries<BlogPost>({
+    content_type: "blogPost",
+  });
+
+  return entries.items.map((item) => {
+    const { title, date, description, thumbnail, slug, authors } = item.fields;
+
+    return {
+      params: {
+        slug,
+      },
+      props: {
+        title,
+        authors,
+        thumbnail,
+        description,
+        publishedAt: new Date(date).toLocaleDateString(),
+      },
+    };
+  });
+}
+
+const { title, authors, thumbnail, description, publishedAt } = Astro.props;
+---
+
+<Layout title={title} description={description}>
+  <Navbar lists={[{ name: "Blog", href: "/blog" }]} client:idle>
+    <Image
+      class="ml-[2px]"
+      width={32}
+      height={32}
+      src={scioImage}
+      format={"webp"}
+      alt="Gambar logo scio 12"
+    />
+  </Navbar>
+
+  <main class="mt-24 space-y-5 px-5 md:px-10">
+    <div class="space-y-1.5">
+      <h1 class="font-poppins text-5xl/15 font-semibold">{title}</h1>
+      <h2 class="text-2xl font-lato">
+        Penulis: {authors.map((a) => a.fields.name).join(",")}
+      </h2>
+      <h3 class="text-xl opacity-70">
+        {publishedAt}
+      </h3>
+    </div>
+    <pre>{JSON.stringify({ authors, thumbnail, publishedAt }, null, 2)}</pre>
+  </main>
+</Layout>
