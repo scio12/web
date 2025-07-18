@@ -1,10 +1,29 @@
 ---
-import Layout from "@layouts/Layout.astro";
+import Layout from "@/layouts/Layout.astro";
 
-import { Navbar } from "@components/Navbar";
+import { Navbar } from "@/components/Navbar";
 import { Image } from "astro:assets";
 
-import scioImage from "@assets/kir-transparent.png";
+import scioImage from "@/assets/kir-transparent.png";
+
+import { contentfulClient } from "@/lib/contentful";
+import type { BlogPost } from "@/lib/contentful";
+
+const entries = await contentfulClient.getEntries<BlogPost>({
+  content_type: "blogPost",
+});
+
+const posts = entries.items.map((item) => {
+  const { title, date, description, thumbnail, slug } = item.fields;
+
+  return {
+    title,
+    slug,
+    thumbnail,
+    description,
+    publishedAt: new Date(date).toLocaleDateString("en-ID"),
+  };
+});
 ---
 
 <Layout title="Blog | KIR SMAN 12 Bekasi" description="Something">
@@ -19,9 +38,70 @@ import scioImage from "@assets/kir-transparent.png";
     />
   </Navbar>
 
-  <main>
-    <section class="h-screen flex justify-center items-center">
-      <h1 class="font-lato font-bold text-4xl">🚧 Under Construction 🚧</h1>
+  <main class="mt-24 space-y-8">
+    <section class="flex flex-col gap-3 items-center">
+      <h1 class="text-center text-2xl font-bold md:text-3xl lg:text-4xl">
+        Pojok Publikasi SCIO 12
+      </h1>
+
+      <p
+        class="text-center w-[85%] sm:w-[70%] md:w-full text-base md:text-lg lg:text-xl"
+      >
+        Berikut ini publikasi yang sudah kami tulis, diantaranya adalah blog
+        ataupun dokumentasi kegiatan.
+      </p>
+    </section>
+
+    <section
+      class="px-4 pb-5 sm:px-6 md:px-8 lg:px-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5"
+    >
+      {
+        posts.map((post) => (
+          <div class="flex flex-col gap-5 rounded-lg border-zinc-300 border p-3">
+            <div class="rounded bg-gray-300">
+              <img
+                class="aspect-video"
+                src={`https:${post.thumbnail.fields.file.url}`}
+                alt={`Gambar thumbnail untuk "${post.title}"`}
+              />
+            </div>
+            <div class="flex flex-col gap-2">
+              <h3 class="font-bold text-xl">{post.title}</h3>
+              <p class="text-lg">{post.description}</p>
+
+              <small class="text-base text-gray-600 dark:text-gray-400">
+                Tanggal Publikasi: {post.publishedAt}
+              </small>
+
+              {/* <h3 class="font-bold text-xl">{lesson.data.title}</h3>
+              <p class="text-lg">{lesson.data.description}</p>
+              <small class="text-base font-zenka text-gray-600 dark:text-gray-400">
+                {lesson.data.created_at.replace("-", "年 ").replace("-", "月 ")}
+                日
+              </small>
+            </div>
+            <div class="flex gap-2">
+              <a
+                href={`/materi/${lesson.slug.split("/")[0]}`}
+                class="uppercase rounded-xl border w-fit py-1 px-2 text-xs hover:text-white hover:bg-neutral-800 dark:hover:bg-white dark:hover:text-neutral-800"
+              >
+                {lesson.slug.split("/")[0]}
+              </a>
+              {lesson.data.isExternal && lesson.data.link && (
+                <p class="uppercase rounded-xl border w-fit py-1 px-2 text-xs">
+                  luar web
+                </p>
+              )} */}
+            </div>
+            <a
+              class="text-sky-700 dark:text-sky-500"
+              href={`/blog/${post.slug}`}
+            >
+              Baca >>>
+            </a>
+          </div>
+        ))
+      }
     </section>
   </main>
 </Layout>
